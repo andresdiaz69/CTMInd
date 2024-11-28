@@ -1,0 +1,127 @@
+# Stored Procedure: Sp_Provision_QuitarAcumulado
+
+## Usa los objetos:
+- [[Provision_OT_Acumulado]]
+- [[Provision_OT_Cuentas]]
+- [[Provision_OT_Resultado]]
+
+```sql
+
+
+CREATE PROCEDURE [dbo].[Sp_Provision_QuitarAcumulado]
+
+@NOW DATETIME,
+@empresa int
+
+AS
+BEGIN
+	--NO IMPRIME RESULTADOS AUTOMATICOS
+	SET NOCOUNT ON
+
+DECLARE	@CTABALANCE NVARCHAR(255)
+		, @CTAINGRESO NVARCHAR(255)
+		, @CTAGASTO NVARCHAR(255)
+		, @A SMALLINT
+		, @CUENTA NVARCHAR(255)
+		, @NATURALEZA NVARCHAR(255)
+		, @FECHA DATE
+		, @IDEMPRESA SMALLINT
+		, @IDCENTRO SMALLINT
+		, @IDSECCION SMALLINT
+		, @IDMARCA SMALLINT
+		, @VRACUMULADO DECIMAL(18,6)
+		, @PROVISION DECIMAL(18,6)
+
+--SET @NOW = '20190731'
+
+SET @CTABALANCE = (	SELECT	C.Numero 
+						FROM	Provision_OT_Cuentas C 
+						WHERE	C.Estado = 1
+						GROUP BY C.Numero 
+						HAVING COUNT(C.Numero) > 1 )
+
+PRINT 'CUENTA BALANCE: ' + CONVERT(NVARCHAR(255), @CTABALANCE)
+
+SET @CTAINGRESO = (	SELECT	C.Numero 
+					FROM	Provision_OT_Cuentas C
+					WHERE	C.Numero <> @CTABALANCE AND 
+							C.Naturaleza <> 'INGRESO' AND
+							C.Estado = 1 )
+
+PRINT 'CUENTA INGRESO: ' + CONVERT(NVARCHAR(255), @CTAINGRESO)
+
+SET @CTAGASTO = (	SELECT	C.Numero 
+					FROM	Provision_OT_Cuentas C
+					WHERE	C.Numero <> @CTABALANCE AND 
+							C.Naturaleza <> 'GASTO' AND
+							C.Estado = 1 )
+
+PRINT 'CUENTA GASTO: ' + CONVERT(NVARCHAR(255), @CTAGASTO)
+
+--VALIDACION DE LAS CUENTAS PARA LA PROVISION
+IF 
+(
+	@CTABALANCE IS NOT NULL AND @CTAGASTO IS NOT NULL AND @CTAINGRESO IS NOT NULL
+) 
+BEGIN
+
+	DECLARE temporal CURSOR FOR 
+	SELECT	X.Fecha
+			, X.IdEmpresa
+			, X.IdCentro
+			, X.IdSeccion
+			, X.IdMarca
+			, X.VrAcumulado
+	FROM	(
+			SELECT	A.*
+					, Fila = ROW_NUMBER() OVER(PARTITION BY A.IDCENTRO, A.IDSECCION, A.IDMARCA ORDER BY A.FECHA DESC)
+			FROM	Provision_OT_Acumulado A
+			where	Fecha <= @NOW
+			) X
+	--WHERE	X.Fila = 1 AND month(X.Fecha) = month(dateadd(MM,-1, @NOW)) and x.IdEmpresa = @empresa
+	WHERE	X.Fila = 1 AND month(X.Fecha) = month(dateadd(MM,-1, @NOW)) AND year(X.Fecha) = year(dateadd(MM,-1, @NOW)) and x.IdEmpresa = @empresa --- JCS: SOLUCIONA TOMAR EL ACUMULADO DEL AÑO ANTERIOR
+
+	OPEN temporal
+
+	FETCH NEXT FROM temporal INTO @FECHA, @IDEMPRESA, @IDCENTRO, @IDSECCION, @IDMARCA, @VRACUMULADO
+
+	WHILE(@@FETCH_STATUS = 0)
+	BEGIN
+
+		SET @A = 0
+		WHILE(@A <= 1)--INICIO DEL CICLO PARA REGISTRO DE PROVISION Y BALANCE
+		BEGIN
+			IF(@A = 0)--INICIO A = 0
+			BEGIN
+				SET @CUENTA = @CTAGASTO
+				SET @NATURALEZA = 'H'
+			END--FIN A = 0
+			ELSE--INICIO A = 1
+			BEGIN
+				SET @CUENTA = @CTABALANCE
+				SET @NATURALEZA = 'D'
+			END--FIN A = 1
+
+			SET @PROVISION = 0 - @VRACUMULADO
+
+			INSERT INTO Provision_OT_Resultado 
+			VALUES
+			(
+				@NOW, @IDEMPRESA, @IDCENTRO, @IDSECCION, @IDMARCA, 'SIN PROVISION DE MES', @VRACUMULADO, 0, @PROVISION, @CUENTA, @NATURALEZA
+			)
+
+			SET @A += 1--INCREMENTAR CICLO
+		END
+
+		FETCH NEXT FROM temporal INTO @FECHA, @IDEMPRESA, @IDCENTRO, @IDSECCION, @IDMARCA, @VRACUMULADO
+	END
+	CLOSE temporal
+	DEALLOCATE temporal
+END
+ELSE
+BEGIN
+	PRINT 'NO ESTAN LAS CUENTAS PARAMETRIZADAS ADECUADAMENTE PARA LA PROVISION'
+END
+END
+
+```

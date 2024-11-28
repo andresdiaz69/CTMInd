@@ -1,0 +1,55 @@
+# Table: cMandos_Presentacion
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| ID | bigint | NO |
+| Año | smallint | NO |
+| Mes | smallint | NO |
+| CodigoLinea | smallint | NO |
+| NombreLinea | nvarchar | NO |
+| CodigoTipo | smallint | NO |
+| NombreTipo | varchar | NO |
+| CodigoRenglon | smallint | NO |
+| NombreRenglon | varchar | NO |
+| nSede1 | varchar | NO |
+| Sede1 | decimal | NO |
+| nSede2 | varchar | NO |
+| Sede2 | decimal | NO |
+| nSede3 | varchar | NO |
+| Sede3 | decimal | NO |
+| nSede4 | varchar | NO |
+| Sede4 | decimal | NO |
+| nSede5 | varchar | NO |
+| Sede5 | decimal | NO |
+| nSede6 | varchar | NO |
+| Sede6 | decimal | NO |
+| nSede7 | varchar | NO |
+| Sede7 | decimal | NO |
+| nSede8 | varchar | NO |
+| Sede8 | decimal | NO |
+| nSede9 | varchar | NO |
+| Sede9 | decimal | NO |
+| nSede10 | varchar | NO |
+| Sede10 | decimal | NO |
+| nSede11 | varchar | NO |
+| Sede11 | decimal | NO |
+| nSede12 | varchar | NO |
+| Sede12 | decimal | NO |
+| nSede13 | varchar | NO |
+| Sede13 | decimal | NO |
+| nSede14 | varchar | NO |
+| Sede14 | decimal | NO |
+| nSede15 | varchar | NO |
+| Sede15 | decimal | NO |
+| nSede16 | varchar | NO |
+| Sede16 | decimal | NO |
+| nSede17 | varchar | NO |
+| Sede17 | decimal | NO |
+| nSede18 | varchar | NO |
+| Sede18 | decimal | NO |
+| nSede19 | varchar | NO |
+| Sede19 | decimal | NO |
+| nSede20 | varchar | NO |
+| Sede20 | decimal | NO |
+| nTotal | varchar | NO |
+| Total | decimal | NO |

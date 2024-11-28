@@ -1,0 +1,22 @@
+# View: vw_JefeDeTallerYServicio_HorasFacturadas_Liquidacion
+
+## Usa los objetos:
+- [[vw_EmpleadosDetalle]]
+- [[vw_JefeDeTallerYServicio_HorasFacturadas_1]]
+
+```sql
+
+
+
+CREATE VIEW [dbo].[vw_JefeDeTallerYServicio_HorasFacturadas_Liquidacion]  AS
+
+SELECT vw_JefeDeTallerYServicio_HorasFacturadas_1.Ano_Periodo, vw_JefeDeTallerYServicio_HorasFacturadas_1.Mes_Periodo, vw_JefeDeTallerYServicio_HorasFacturadas_1.CodigoEmpleado, vw_EmpleadosDetalle.Empleado, vw_JefeDeTallerYServicio_HorasFacturadas_1.CodigoEmpresa
+, vw_EmpleadosDetalle.NombreEmpresa, vw_JefeDeTallerYServicio_HorasFacturadas_1.CodigoCentro, vw_JefeDeTallerYServicio_HorasFacturadas_1.Centro, vw_JefeDeTallerYServicio_HorasFacturadas_1.CodigoSeccion, vw_JefeDeTallerYServicio_HorasFacturadas_1.Seccion, vw_EmpleadosDetalle.FechaRetiro, vw_JefeDeTallerYServicio_HorasFacturadas_1.UnidadesVendidas, vw_JefeDeTallerYServicio_HorasFacturadas_1.ValorComision
+,vw_JefeDeTallerYServicio_HorasFacturadas_1.IdComisionModeloSub, vw_JefeDeTallerYServicio_HorasFacturadas_1.IdComisionModeloSubCriterio,vw_JefeDeTallerYServicio_HorasFacturadas_1.IdRangoMaestra, 0 AS IdLiquidacion, 0 AS IdHistorico, GETDATE() AS FechaLiquidacion
+,vw_JefeDeTallerYServicio_HorasFacturadas_1.Valor, vw_JefeDeTallerYServicio_HorasFacturadas_1.CodigoConcepto
+FROM vw_JefeDeTallerYServicio_HorasFacturadas_1
+INNER JOIN vw_EmpleadosDetalle ON vw_JefeDeTallerYServicio_HorasFacturadas_1.CodigoEmpleado = vw_EmpleadosDetalle.CodigoEmpleado
+
+
+
+```

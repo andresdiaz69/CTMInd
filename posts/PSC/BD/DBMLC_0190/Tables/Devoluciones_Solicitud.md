@@ -1,0 +1,49 @@
+# Table: Devoluciones_Solicitud
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| IdSolicitud | int | NO |
+| IdEmpleado | varchar | YES |
+| IdCliente | varchar | YES |
+| ValorDevolucion | decimal | YES |
+| IdEmpresa | int | NO |
+| IdLinea | int | NO |
+| IdCentro | int | NO |
+| FechaSolicitud | datetime | YES |
+| CodigoTerceros | int | YES |
+| ObservacionSolicitud | varchar | YES |
+| Estado | varchar | YES |
+| IdCausaRechazo | int | YES |
+| ObservacionEstado | varchar | YES |
+| IdAprobador | varchar | YES |
+| FechaAprobacion | datetime | YES |
+| EstadoPago | varchar | YES |
+| IdConceptoCreacion | int | YES |
+| FechaModificacion | datetime | YES |
+| EstadoAprobadorJefe | bit | YES |
+| IdJefeAprobador | varchar | YES |
+| FechaAccionJefe | datetime | YES |
+| ObservacionRechazoJefe | varchar | YES |
+| IdUnidadNegocioJefe | varchar | YES |
+| DocumentoAplica | int | YES |
+| Anticipo | varchar | YES |
+| FacturaSerie | varchar | YES |
+| FacturaNumero | varchar | YES |
+| FacturaAnn | varchar | YES |
+| IDFormaPago | int | YES |
+| EntidadFinancieraDestino | varchar | YES |
+| NumeroCuentaDestino | varchar | YES |
+| TipoCuenta | varchar | YES |
+| idNaturalezaJuridica | int | YES |
+| CorreoElectronico | varchar | YES |
+| AplicaBeneficiario | bit | YES |
+| NombresBeneficiario | varchar | YES |
+| CedulaBeneficiario | varchar | YES |
+| NaturalezaJuridicaBeneficiario | int | YES |
+| CorrreoElectronicoBeneficiario | varchar | YES |
+| IdPagos | int | YES |
+| IdAprobadorBanco | varchar | YES |
+| ObservacionRechazoBanco | varchar | YES |
+| FechaAprobacionBanco | datetime | YES |
+| Enviado24h | bit | YES |
+| NombresCliente | varchar | YES |

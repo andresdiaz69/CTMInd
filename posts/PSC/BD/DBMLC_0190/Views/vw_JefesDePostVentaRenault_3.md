@@ -1,0 +1,17 @@
+# View: vw_JefesDePostVentaRenault_3
+
+## Usa los objetos:
+- [[vw_JefesDePostVentaRenault_3_Detalle]]
+
+```sql
+
+
+
+CREATE VIEW [dbo].[vw_JefesDePostVentaRenault_3]
+AS
+SELECT        Ano_Periodo, Mes_Periodo, CodigoEmpresa, CodigoCentro, Centro, CodigoSeccion, Seccion, MAX(ValorVariable) AS ValorVariable, SUM(Facturacion) AS Facturacion, SUM(Facturacion) * MAX(ValorVariable) / 100 AS Comision_Facturacion
+FROM            dbo.vw_JefesDePostVentaRenault_3_Detalle
+GROUP BY Ano_Periodo, Mes_Periodo, CodigoEmpresa, CodigoCentro, Centro, CodigoSeccion, Seccion
+
+
+```

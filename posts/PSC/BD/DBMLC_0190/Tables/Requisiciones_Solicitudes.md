@@ -1,0 +1,56 @@
+# Table: Requisiciones_Solicitudes
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| IdSolicitud | int | NO |
+| TipoSolicitud | nvarchar | YES |
+| IdRazon | int | NO |
+| IdTipoPublicacion | smallint | NO |
+| IdEstado | smallint | NO |
+| CodigoCargo | nvarchar | NO |
+| tip_con | nvarchar | NO |
+| nom_con | nvarchar | NO |
+| DuracionContratoMeses | int | YES |
+| Salario | int | YES |
+| BonoAlimentacion | int | YES |
+| BonoGasolina | int | YES |
+| BonoCelular | int | YES |
+| AuxMovilizacion | int | YES |
+| SalarioGarantizado | int | YES |
+| FinSalario | datetime | YES |
+| CodigoUnidadNegocio | nvarchar | YES |
+| UnidadNegocio | nvarchar | YES |
+| Marca | nvarchar | YES |
+| Empresa | nvarchar | YES |
+| Centro | nvarchar | YES |
+| Seccion | nvarchar | YES |
+| Departamento | nvarchar | YES |
+| Sede | nvarchar | YES |
+| DescripcionTrabajo | nvarchar | YES |
+| Requisitos | nvarchar | YES |
+| AprobarAntes | datetime | YES |
+| Observaciones | nvarchar | YES |
+| UserIdCreo | nvarchar | NO |
+| FechaCreacion | datetime | NO |
+| UserIdModifico | nvarchar | NO |
+| FechaModificacion | datetime | NO |
+| IdEstadoNomina | smallint | NO |
+| Dotacion | bit | YES |
+| FechaInicioContrato | datetime | YES |
+| FechaCitacionFirmaContrato | datetime | YES |
+| ObservacionesEstado | nvarchar | YES |
+| FechaCitacionFirmaContratoAplazada | datetime | YES |
+| CodMarca | smallint | YES |
+| CodEmpresa | smallint | YES |
+| CodCentro | smallint | YES |
+| CodDepartamento | nvarchar | YES |
+| CodSeccion | smallint | YES |
+| CodSede | smallint | YES |
+| Unica | bit | NO |
+| IdEstadoReclutador | smallint | YES |
+| HorarioDiurno | bit | NO |
+| RazonCancelacion | smallint | YES |
+| InHouse | bit | NO |
+| InHouseProyect | nvarchar | YES |
+| CodCiudadLabor | nvarchar | YES |
+| NuevoSalario | bit | NO |

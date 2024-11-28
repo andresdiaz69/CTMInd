@@ -1,0 +1,50 @@
+# Table: ComisionesSpigaAlmacenAlbaran
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| Id | uniqueidentifier | NO |
+| IdComisionSpiga | int | NO |
+| Ano_Periodo | int | NO |
+| Mes_Periodo | int | NO |
+| Ano_Spiga | int | YES |
+| Mes_Spiga | int | YES |
+| CodigoEmpresa | smallint | NO |
+| Empresa | nvarchar | NO |
+| CodigoCentro | smallint | NO |
+| Centro | nvarchar | NO |
+| CodigoSeccion | int | NO |
+| Seccion | nvarchar | NO |
+| FechaFactura | datetime2 | NO |
+| NumeroFactura | nvarchar | YES |
+| NumeroAlbaran | nvarchar | NO |
+| TipoMov | nvarchar | NO |
+| Marca | nvarchar | NO |
+| Referencia | nvarchar | NO |
+| DescripcionReferencia | nvarchar | YES |
+| Nitcliente | nvarchar | YES |
+| NombreCliente | nvarchar | YES |
+| CodigoCategoriaCliente | smallint | YES |
+| CategoriaCliente | nvarchar | YES |
+| UnidadesVendidas | decimal | NO |
+| CostoReferencia | decimal | NO |
+| ValorUnitarioReferencia | decimal | NO |
+| PorcDescuento | decimal | YES |
+| Impuestos | decimal | YES |
+| CodClasificacion1Mov | nvarchar | NO |
+| Clasificacion1Mov | nvarchar | YES |
+| CodClasificacion2Mov | nvarchar | YES |
+| Clasificacion2Mov | nvarchar | YES |
+| CodClasificacion3Mov | nvarchar | YES |
+| Clasificacion3Mov | nvarchar | YES |
+| CodClasificacion4Mov | nvarchar | YES |
+| Clasificacion4Mov | nvarchar | YES |
+| CodClasificacion5Mov | nvarchar | YES |
+| Clasificacion5Mov | nvarchar | YES |
+| CodClasificacion6Mov | nvarchar | YES |
+| Clasificacion6Mov | nvarchar | YES |
+| CedulaVendedorRepuestos | bigint | YES |
+| NombreVendedorRepuestos | nvarchar | YES |
+| CedulaBodeguero | bigint | YES |
+| NombreBodeguero | nvarchar | YES |
+| VentaCampaña | int | YES |
+| ValorNeto | decimal | YES |
