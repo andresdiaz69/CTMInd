@@ -7,5 +7,5 @@ module.exports = {
         };
         return config;
     },
-    staticPageGenerationTimeout: 300, // Aumenta el tiempo de espera a 120 segundos
+    staticPageGenerationTimeout: 1200, // Aumenta el tiempo de espera a 120 segundos
 };
