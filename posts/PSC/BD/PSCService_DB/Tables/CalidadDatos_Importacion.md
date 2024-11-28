@@ -1,0 +1,54 @@
+# Table: CalidadDatos_Importacion
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| Id_import_calidad | bigint | NO |
+| Fecha_recibido | date | YES |
+| id_proyecto | varchar | YES |
+| ideorg | varchar | YES |
+| fte | varchar | YES |
+| tokenUser | varchar | YES |
+| identificador_aleatorio | varchar | YES |
+| contador_identificador | varchar | YES |
+| confPost | varchar | YES |
+| ideuser | varchar | YES |
+| tiptra | varchar | YES |
+| codter | varchar | YES |
+| tipdoc | varchar | YES |
+| numdoc | varchar | YES |
+| nom1 | varchar | YES |
+| nom2 | varchar | YES |
+| ape1 | varchar | YES |
+| ape2 | varchar | YES |
+| razsoc | varchar | YES |
+| estbio | varchar | YES |
+| gen | varchar | YES |
+| fecnac | varchar | YES |
+| estciv | varchar | YES |
+| email | varchar | YES |
+| munres | varchar | YES |
+| depres | varchar | YES |
+| dirres | varchar | YES |
+| barres | varchar | YES |
+| telres | varchar | YES |
+| Pkemail | varchar | YES |
+| Pkdirres | varchar | YES |
+| Pktelres | varchar | YES |
+| qtipdoc | varchar | YES |
+| qnumdoc | varchar | YES |
+| qnom1 | varchar | YES |
+| qnom2 | varchar | YES |
+| qape1 | varchar | YES |
+| qape2 | varchar | YES |
+| qrazsoc | varchar | YES |
+| qestbio | varchar | YES |
+| qgen | varchar | YES |
+| qfecnac | varchar | YES |
+| qestciv | varchar | YES |
+| qemail | varchar | YES |
+| qcel | varchar | YES |
+| qmunres | varchar | YES |
+| qdepres | varchar | YES |
+| qdirres | varchar | YES |
+| qbarres | varchar | YES |
+| qtelres | varchar | YES |

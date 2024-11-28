@@ -1,0 +1,52 @@
+# Table: spiga_FacturasCargosAdicionales
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| IdSincronizacionSpiga | int | NO |
+| IdConsecutivo | int | NO |
+| Ano_Periodo | int | NO |
+| Mes_Periodo | int | NO |
+| FechaDeCorte | datetime | NO |
+| IdEmpresas | smallint | YES |
+| IdFacturaAdicionalAmbitos | nvarchar | YES |
+| Ambito | nvarchar | YES |
+| IdFacturaCargoAdicionalTipos | tinyint | YES |
+| TipoFactura | nvarchar | YES |
+| SerieFactura | nvarchar | YES |
+| NumFactura | nvarchar | YES |
+| AñoFactura | nvarchar | YES |
+| IdFacturaCargoAdicionalDetalle | smallint | YES |
+| FechaFactura | datetime | YES |
+| FechaAsiento | datetime | YES |
+| IdTerceros | int | YES |
+| Nombre | nvarchar | YES |
+| Apellido1 | nvarchar | YES |
+| Apellido2 | nvarchar | YES |
+| Matricula | nvarchar | YES |
+| VIN | nvarchar | YES |
+| SerieExpedienteVN | nvarchar | YES |
+| NumExpedienteVN | int | YES |
+| AñoExpedienteVN | nvarchar | YES |
+| SerieExpedienteVO | nvarchar | YES |
+| NumExpedienteVO | int | YES |
+| AñoExpedienteVO | nvarchar | YES |
+| AfectaRentabilidad | bit | YES |
+| SerieFacturaAsociada | nvarchar | YES |
+| NumFacturaAsociada | nvarchar | YES |
+| AñoFacturaAsociada | nvarchar | YES |
+| BaseImponible | decimal | YES |
+| BaseExenta | decimal | YES |
+| BaseNosujeta | decimal | YES |
+| IvaImporte | decimal | YES |
+| NombreMarca | nvarchar | YES |
+| NombreGama | nvarchar | YES |
+| DescripcionModelo | nvarchar | YES |
+| Seccion | nvarchar | YES |
+| NumVentaVN | smallint | YES |
+| NumVentaVO | smallint | YES |
+| IdVehiculos | int | YES |
+| TotalFactura | decimal | YES |
+| IdEmpleados | smallint | YES |
+| NombreEmpleado | nvarchar | YES |
+| Apellido1Empleado | nvarchar | YES |
+| Apellido2Empleado | nvarchar | YES |

@@ -1,0 +1,50 @@
+# Table: TransporteGuias
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkFkEmpresas | smallint | NO |
+| PkAñoTransporte | nvarchar | NO |
+| PkFkSeriesTransporte | nvarchar | NO |
+| PkNumTransporte | int | NO |
+| FkUbicaVNO_Origen | nvarchar | NO |
+| FkUbicaVNO_Destino | nvarchar | NO |
+| FkSerieTipos | nvarchar | NO |
+| FechaAlta | datetime | NO |
+| FechaAnulacion | datetime | YES |
+| FkEmpleados | smallint | YES |
+| FechaSalida | datetime | YES |
+| FechaLlegada | datetime | YES |
+| CodTransporte | nvarchar | YES |
+| Transportista | nvarchar | YES |
+| TransportistaMatricula | nvarchar | YES |
+| FkTerceros_Transportista | int | YES |
+| CodigoIdentificacion | nvarchar | YES |
+| Ruta | nvarchar | YES |
+| Perteneciente | nvarchar | YES |
+| MotivoTranslado | nvarchar | YES |
+| DocumentoAduanero | nvarchar | YES |
+| Coste | decimal | YES |
+| Peso | decimal | YES |
+| Volumen | decimal | YES |
+| CargoCompañia | bit | YES |
+| FkTipoTransporte | nvarchar | YES |
+| HashDocumento | nvarchar | YES |
+| HashControl | nvarchar | YES |
+| FechaEnvioHashDocumento | datetime | YES |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| FechaMod | datetime | NO |
+| FkTerceros_Chofer | int | YES |
+| FkTransporteGuiasOrigen | nvarchar | YES |
+| FkMotivosTrasladoGuiasTransporte | smallint | YES |
+| FkTerceros_EntregaCliente | int | YES |
+| FkTerceroDirecciones_EntregaCliente | smallint | YES |
+| FkCentros | smallint | YES |
+| TransbordoProgramado | bit | YES |
+| NumBultosOPallets | int | YES |
+| TrasladoTotalMercancia | bit | YES |
+| ModalidadTransporte | nvarchar | YES |
+| PuertoDesembarque | nvarchar | YES |
+| AeropuertoDesembarque | nvarchar | YES |
+| VehiculoM1L | bit | YES |

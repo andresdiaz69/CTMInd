@@ -1,0 +1,49 @@
+# Table: EntradasTrabajosExternosDet
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkFkEmpresas | smallint | NO |
+| PkFkAñoEntradaTrabajosExternos | nvarchar | NO |
+| PkFkTerceros | int | NO |
+| PkFkSeries_EntradasTrabajosExternos | nvarchar | NO |
+| PkFkEntradasTrabajosExternos | nvarchar | NO |
+| PkEntradasTrabajosExternosDet_Iden | smallint | NO |
+| FkArticulos | int | YES |
+| Descripcion | nvarchar | YES |
+| Unidades | decimal | NO |
+| PrecioCompra | decimal | NO |
+| DtoPorcCompra | decimal | YES |
+| FkImpuestos_Compra | nvarchar | YES |
+| PorcImpuestosCompra | decimal | YES |
+| PrecioVenta | decimal | NO |
+| ImporteExento | decimal | YES |
+| DtoPorcVenta | decimal | YES |
+| FkImpuestos_Venta | nvarchar | NO |
+| PorcImpuestosVenta | decimal | YES |
+| FkCentros | smallint | NO |
+| FkSeries_OT | nvarchar | NO |
+| FkNumOT | int | NO |
+| FkAñoOT | nvarchar | NO |
+| FkNumTrabajo | tinyint | NO |
+| FechaAlta | datetime | NO |
+| Observaciones | nvarchar | YES |
+| FechaBaja | datetime | YES |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| FechaMod | datetime | NO |
+| FkManoObraTipos | smallint | YES |
+| FkMonedas | smallint | YES |
+| FactorCambioMoneda | decimal | YES |
+| FkAñoPedidosTrabajosExternos | nvarchar | YES |
+| FkSeriesPedidosTrabajosExternos | nvarchar | YES |
+| FkNumPedidosTrabajosExternos | int | YES |
+| FkPedidosTrabajosExternosDet | int | YES |
+| FkImpuestosTipos_Venta | nvarchar | NO |
+| FkImpuestosTipos_Compra | nvarchar | YES |
+| OperacionPrincipal | bit | NO |
+| PorcDefI | decimal | YES |
+| PorcDefC | decimal | YES |
+| FkGarantiasTipos | nvarchar | YES |
+| CodAveria | nvarchar | YES |
+| FkArticulosTipos | int | YES |

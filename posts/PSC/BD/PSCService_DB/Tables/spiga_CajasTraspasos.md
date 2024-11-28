@@ -1,0 +1,53 @@
+# Table: spiga_CajasTraspasos
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| IdSincronizacion | int | NO |
+| IdConsecutivo | int | NO |
+| Ano_Periodo | int | NO |
+| Mes_Periodo | int | NO |
+| FechaDeCorte | datetime | NO |
+| IdEmpresas | smallint | NO |
+| IdCentros | smallint | NO |
+| IdCajas | smallint | NO |
+| IdCajasDet | int | YES |
+| UserMod | smallint | YES |
+| HostMod | nvarchar | YES |
+| VersionFila | tinyint | YES |
+| FechaMod | datetime | YES |
+| NumDocumento | nvarchar | YES |
+| FechaVto | datetime | YES |
+| Importe | decimal | YES |
+| FechaTraspaso | datetime | YES |
+| FechaAlta | datetime | YES |
+| IdCajasDetTraspaso | int | YES |
+| IdCajasDocumentos | smallint | YES |
+| FactorCambioMoneda | decimal | YES |
+| IdMonedas | smallint | YES |
+| ImporteTalon | decimal | YES |
+| IdSeries_NotaLiquidacion | nvarchar | YES |
+| NumNotaLiquidacion | int | YES |
+| AñoNotaLiquidacion | nvarchar | YES |
+| IdTercero_Pagador | int | YES |
+| IdCajaAcciones | smallint | YES |
+| IdCajasFacturasDet | smallint | YES |
+| AñoAsiento | nvarchar | YES |
+| IdAsientos | int | YES |
+| IdEfectosNumDet | smallint | YES |
+| IdRecibos | int | YES |
+| IdRecibosAsientos | tinyint | YES |
+| SerieFactura | nvarchar | YES |
+| NumFactura | nvarchar | YES |
+| AñoFactura | nvarchar | YES |
+| IdContCtasTerceroPagador | nvarchar | YES |
+| IdCentrosRelacionado | smallint | YES |
+| IdCajasRelacionado | smallint | YES |
+| IdCajasDetRelacionado | int | YES |
+| ImporteDetalle | decimal | YES |
+| IdFacturaTipos | nvarchar | YES |
+| IdBancoEntidades | nvarchar | YES |
+| NombreBancoEntidad | nvarchar | YES |
+| DescripcionCentro | nvarchar | YES |
+| DescripcionCaja | nvarchar | YES |
+| FechaExportacion | datetime | YES |
+| FechaExportacionAnulacion | datetime | YES |

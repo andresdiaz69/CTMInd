@@ -1,0 +1,57 @@
+# Table: FacturacionDescripciones
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkFkEmpresas | smallint | NO |
+| PkFkCentros | smallint | NO |
+| PkAñoFactura | nvarchar | NO |
+| PkFkSeries | nvarchar | NO |
+| PkNumFactura | nvarchar | NO |
+| Cliente_Factura | nvarchar | YES |
+| Cliente | nvarchar | YES |
+| DescripcionImpuesto | nvarchar | YES |
+| NumeroCuentaBancario | nvarchar | YES |
+| DescripcionPagoFormaTipos | nvarchar | YES |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| DescripcionCentroDestino | nvarchar | YES |
+| DescripcionSeccionCargoInterno | nvarchar | YES |
+| DescripcionDepartamentoCargoInterno | nvarchar | YES |
+| DescripcionImputacion | nvarchar | YES |
+| Observaciones | nvarchar | YES |
+| NumeroRegistroIndustrial | nvarchar | YES |
+| ObservacionesFactura | nvarchar | YES |
+| FkTextoSistema_IRM | int | YES |
+| FkTextoSistema_LPD | int | YES |
+| FkTextoSistema_MG | int | YES |
+| FkTextoSistema_OFA | int | YES |
+| FkTextoSistema_PF | int | YES |
+| NombreMarca | nvarchar | YES |
+| NombreModelo | nvarchar | YES |
+| NumeroRegistroEspecial | nvarchar | YES |
+| Direccion | nvarchar | YES |
+| TextoControlVisual | nvarchar | YES |
+| PruebaRecorridoVisible | bit | NO |
+| FechaMod | datetime | NO |
+| NumeroCuentaBancarioEmpresa | nvarchar | YES |
+| FkTextoSistema_CSW | int | YES |
+| FkTextoSistema_DS | int | YES |
+| FkTextoSistema_EI | int | YES |
+| FkTextoSistema_TABONOS | int | YES |
+| SuReferencia | nvarchar | YES |
+| FkResumenTipos | tinyint | YES |
+| TituloInformeFactura | nvarchar | YES |
+| FkModulos | nvarchar | YES |
+| FkInformes | smallint | YES |
+| FechaReferencia | datetime | YES |
+| ConceptoReferencia | nvarchar | YES |
+| FkTextoSistema_LPDRtf | int | YES |
+| TelefonoTrabajoEmpleadoAlta | nvarchar | YES |
+| TelefonoTrabajoEmpleadoResponsable | nvarchar | YES |
+| TelefonoTrabajoEmpleadoRetirada | nvarchar | YES |
+| EmailTrabajoEmpleadoAlta | nvarchar | YES |
+| EmailTrabajoEmpleadoResponsable | nvarchar | YES |
+| EmailTrabajoEmpleadoRetirada | nvarchar | YES |
+| FkTextoAbono_ParcialTotal | int | YES |
+| ImprimirIdReferencias | bit | NO |

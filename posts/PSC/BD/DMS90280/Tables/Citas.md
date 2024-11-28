@@ -1,0 +1,51 @@
+# Table: Citas
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkFkEmpresas | smallint | NO |
+| PkFkCentros | smallint | NO |
+| PkCitas_Iden | int | NO |
+| FkVehiculos | int | YES |
+| Matricula | nvarchar | YES |
+| FkTerceros | int | YES |
+| PersonaContacto | nvarchar | YES |
+| TelefonoPersonaContacto | nvarchar | YES |
+| FechaCita | datetime | NO |
+| Kmts | int | YES |
+| Observaciones | nvarchar | YES |
+| FkEmpleados | smallint | NO |
+| FechaAlta | datetime | NO |
+| FechaBaja | datetime | YES |
+| EnviarSMS | bit | NO |
+| FkAñoOT | nvarchar | YES |
+| FkSeries_OT | nvarchar | YES |
+| FkNumOT | int | YES |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| FechaMod | datetime | NO |
+| FkRecepcionTipos | nvarchar | YES |
+| FkMarcaTallerModelos | nvarchar | YES |
+| FkAñoPreparacionCita | nvarchar | YES |
+| FkSeries_Preparacion | nvarchar | YES |
+| FkNumPreparacionCita | int | YES |
+| FkEmpleados_AltaOT | smallint | YES |
+| FkCitaTipos | tinyint | NO |
+| HorasUso | int | YES |
+| FkMotivoCita | smallint | YES |
+| IdentificadorCita | nvarchar | YES |
+| CitaDesasistida | bit | NO |
+| FechaInicioReparacion | datetime | YES |
+| FkOrigenCita | smallint | NO |
+| FechaPrevistaEntrega | datetime | YES |
+| EmailPersonaContacto | nvarchar | YES |
+| ClienteEspera | bit | NO |
+| RequiereServicioTransporte | bit | NO |
+| RequiereRecogida | bit | NO |
+| RequiereEntrega | bit | NO |
+| DireccionRecogida | nvarchar | YES |
+| DireccionEntrega | nvarchar | YES |
+| NifCifPersonaAutorizada | nvarchar | YES |
+| NombreCompletoPersonaAutorizada | nvarchar | YES |
+| RequiereSustitucion | bit | YES |
+| ObservacionesEntrega | nvarchar | YES |

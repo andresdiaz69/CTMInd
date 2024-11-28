@@ -1,0 +1,31 @@
+# Stored Procedure: sp_cxp_legalizafac
+
+## Usa los objetos:
+- [[CNT_AUDITORIA]]
+- [[cnt_cabdoc]]
+- [[cnt_cuedoc]]
+- [[cnt_puc]]
+- [[CXC_AUDITORIA]]
+- [[cxc_cabdoc]]
+- [[cxc_cuedoc]]
+- [[cxc_param]]
+- [[cxp_antlegaliza]]
+- [[CXP_AUDITORIA]]
+- [[cxp_cabdoc]]
+- [[cxp_cuedoc]]
+- [[cxp_legaliza]]
+- [[cxp_LegResultProc]]
+- [[cxp_mlegaliza]]
+- [[cxp_param]]
+- [[cxp_provee]]
+- [[err_infcon]]
+- [[fn_sis_GetUsuActual]]
+- [[fn_web_gruposusu]]
+- [[gen_permisos]]
+- [[gen_subtipodoc]]
+- [[sp_cxc_afecon]]
+- [[sp_cxp_afecon]]
+- [[sp_gen_afecon_linea_proc]]
+- [[sp_gen_numerador]]
+
+*No code available.*

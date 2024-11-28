@@ -1,0 +1,50 @@
+# Table: VentasGastosConceptosOperacion
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkFkEmpresas | smallint | NO |
+| PkFkAñoExpediente | nvarchar | NO |
+| PkFkSeries_Expediente | nvarchar | NO |
+| PkFkNumExpediente | int | NO |
+| PkFkVentas | smallint | NO |
+| PkFkCompraGastoAdicionalTipos | nvarchar | NO |
+| PkFkCentros_CompraGastoAdicionalTiposConceptosOperacion | smallint | NO |
+| PkFkPlantillasCalculo | nvarchar | NO |
+| PkFkConceptosOperacion | nvarchar | NO |
+| FkCentros_CompraGastoAdicionales | smallint | YES |
+| FkCompraGastoAdicionales | int | YES |
+| FkCompraGastoAdicionalDetalles | int | YES |
+| FkAñoPedidosServicios | nvarchar | YES |
+| FkSeriePedidosServicios | nvarchar | YES |
+| FkPedidosServicios | int | YES |
+| Importe | decimal | YES |
+| FkMonedas | smallint | YES |
+| FactorCambioMoneda | decimal | YES |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| FechaMod | datetime | NO |
+| PkVentasGastosConceptosOperacion_Iden | smallint | NO |
+| FkMonedas_Gasto | smallint | YES |
+| FkMonedas_Pedido | smallint | YES |
+| FactorCambioMoneda_Gasto | decimal | YES |
+| FactorCambioMoneda_Pedido | decimal | YES |
+| FactorCambioMonedaContravalor_Gasto | decimal | YES |
+| FactorCambioMonedaContravalor_Pedido | decimal | YES |
+| BaseNoSujeta | decimal | YES |
+| BaseExenta | decimal | YES |
+| BaseImponible | decimal | YES |
+| ImporteSuplidos | decimal | YES |
+| ValorNeto | decimal | YES |
+| IncrementaStock_Gasto | bit | YES |
+| IncrementaStock_Pedido | bit | YES |
+| AfectaRentabilidad_Gasto | bit | YES |
+| AfectaRentabilidad_Pedido | bit | YES |
+| Aprovisionado_Gasto | bit | YES |
+| SobreCoste_Gasto | bit | YES |
+| SobreCoste_Pedido | bit | YES |
+| FechaFactura_Gasto | datetime | YES |
+| FechaFactura_Pedido | datetime | YES |
+| FkCompraGastoAdicionalTipos_Gasto | nvarchar | YES |
+| FkCompraGastoAdicionalTipos_Pedido | nvarchar | YES |
+| FkImputacionTipos | smallint | YES |

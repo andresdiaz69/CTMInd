@@ -1,0 +1,51 @@
+# Table: rhh_indemniza
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| cod_emp | char | NO |
+| cod_con | char | NO |
+| fec_liq | datetime | NO |
+| tip_liq | char | NO |
+| fec_ing | datetime | NO |
+| fec_egr | datetime | NO |
+| dia_vinc | int | NO |
+| dia_aus | int | NO |
+| dia_indemn | numeric | NO |
+| val_liq | money | NO |
+| b01_liq | money | YES |
+| b02_liq | money | YES |
+| b03_liq | money | YES |
+| b04_liq | money | YES |
+| b05_liq | money | YES |
+| b06_liq | money | YES |
+| b07_liq | money | YES |
+| b08_liq | money | YES |
+| b09_liq | money | YES |
+| b10_liq | money | YES |
+| b11_liq | money | YES |
+| b12_liq | money | YES |
+| b13_liq | money | YES |
+| b14_liq | money | YES |
+| b15_liq | money | YES |
+| b16_liq | money | YES |
+| b17_liq | money | YES |
+| b18_liq | money | YES |
+| b19_liq | money | YES |
+| b20_liq | money | YES |
+| Bas_liq | money | YES |
+| fec_cte | datetime | NO |
+| cod_cont | int | NO |
+| valIndemn | money | NO |
+| val_provi | money | NO |
+| val_dife | money | NO |
+| Cod_cia | char | NO |
+| Cod_suc | char | NO |
+| Cod_cco | char | NO |
+| Cod_cl1 | varchar | NO |
+| Cod_cl2 | varchar | NO |
+| Cod_cl3 | varchar | NO |
+| Cod_cl4 | varchar | NO |
+| Cod_cl5 | varchar | NO |
+| Cod_cl6 | varchar | NO |
+| Cod_cl7 | varchar | NO |
+| IDL_Num | bigint | NO |

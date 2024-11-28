@@ -1,0 +1,32 @@
+# Stored Procedure: sp_web_tes_trnanu
+
+## Usa los objetos:
+- [[cie_cabdoc]]
+- [[cie_cuedoc]]
+- [[cnt_cabdoc]]
+- [[cxc_cabdoc]]
+- [[cxc_cuedoc]]
+- [[cxc_impxdocumento]]
+- [[cxp_cabdoc]]
+- [[cxp_cuedoc]]
+- [[Fn_cnt_gruanudoc]]
+- [[Fn_nif_gruanudoc]]
+- [[fn_sis_GetUsuActual]]
+- [[gen_perapl]]
+- [[gen_subtipodoc]]
+- [[nif_cabdoc]]
+- [[prp_cabdoc]]
+- [[prp_cuedoc]]
+- [[rhh_LotesBanco]]
+- [[sis_aplicacion]]
+- [[sp_gen_borra_cnt]]
+- [[sp_gen_borra_nif]]
+- [[tes_cabdoc]]
+- [[tes_cabodp]]
+- [[tes_cuedoc]]
+- [[tes_detcuadre_caja]]
+- [[tes_inf_con]]
+- [[tes_inf_nif]]
+- [[tes_param]]
+
+*No code available.*

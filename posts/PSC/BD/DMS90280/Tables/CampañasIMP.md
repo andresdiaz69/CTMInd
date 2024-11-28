@@ -1,0 +1,51 @@
+# Table: CampañasIMP
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkCampañasIMP | bigint | NO |
+| FkModulos | nvarchar | YES |
+| FkIntegracion | smallint | YES |
+| FkFicheros | smallint | YES |
+| FkProcesos | int | YES |
+| FkMarcas | smallint | YES |
+| FkCampañaTipos | smallint | YES |
+| FkCampañas | nvarchar | YES |
+| FkImportadoras | int | YES |
+| FkCodigoMarca | nvarchar | YES |
+| FkCombustibleTipos | nvarchar | YES |
+| FkCarroceriaTipos | nvarchar | YES |
+| Descripcion | nvarchar | YES |
+| FkCodModelo_Like | nvarchar | YES |
+| FkExtModelo_Like | nvarchar | YES |
+| FkAñoModelo_Like | nvarchar | YES |
+| FkVersiones_Like | nvarchar | YES |
+| Cilindrada | nvarchar | YES |
+| ImporteAportacionConces | nvarchar | YES |
+| PorcAportacionConces | nvarchar | YES |
+| ImporteAportacionMarca | nvarchar | YES |
+| PorcAportacionMarca | nvarchar | YES |
+| FechaDesde | nvarchar | YES |
+| FechaHasta | nvarchar | YES |
+| Fidelizacion | nvarchar | YES |
+| Rappel | nvarchar | YES |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| TipoValor | nvarchar | YES |
+| FechaMod | datetime | NO |
+| Moneda | nvarchar | YES |
+| FactorCambioMoneda | decimal | YES |
+| AportacionConcesImporte | decimal | YES |
+| AportacionConcesPorc | decimal | YES |
+| AportacionMarcaImporte | decimal | YES |
+| AportacionMarcaPorc | decimal | YES |
+| FkMonedas | smallint | YES |
+| CalcularSobrePrecioBase | nvarchar | YES |
+| CalcularSobrePrecioPintura | nvarchar | YES |
+| CalcularSobrePrecioOpcionales | nvarchar | YES |
+| CalcularSobreCompra | nvarchar | YES |
+| CalcularSobrePrecioTransporte | nvarchar | YES |
+| DescuentosAplicables | nvarchar | YES |
+| FkReclamacionTipos | nvarchar | YES |
+| CodigoMarca | nvarchar | YES |
+| FkGamas | smallint | YES |

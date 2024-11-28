@@ -1,0 +1,33 @@
+# Stored Procedure: sp_ptv_contab_res
+
+## Usa los objetos:
+- [[cnt_cabdoc]]
+- [[cnt_puc]]
+- [[err_infcon]]
+- [[err_infnif]]
+- [[fn_sis_GetUsuActual]]
+- [[gen_cajas]]
+- [[gen_decapl]]
+- [[gen_perapl]]
+- [[gen_periodos]]
+- [[gen_subtipodoc]]
+- [[inv_bodegas]]
+- [[inv_cabdoc]]
+- [[inv_inf_con]]
+- [[inv_inf_nif]]
+- [[inv_param_cnt]]
+- [[inv_vargen]]
+- [[nif_cabdoc]]
+- [[nif_puc]]
+- [[ptv_detcuadre_caja]]
+- [[ptv_forpag]]
+- [[ptv_forpag_ctaxbod]]
+- [[ptv_vargen]]
+- [[sp_gen_afecon_linea_proc]]
+- [[sp_gen_numerador]]
+- [[tes_auditoria]]
+- [[tes_bancos]]
+- [[tes_cabdoc]]
+- [[tes_cuedoc]]
+
+*No code available.*

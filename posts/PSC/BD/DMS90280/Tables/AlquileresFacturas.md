@@ -1,0 +1,55 @@
+# Table: AlquileresFacturas
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkFkEmpresas | smallint | NO |
+| PkFkAñoFactura | nvarchar | NO |
+| PkFkSeries_Factura | nvarchar | NO |
+| PkFkNumFactura | nvarchar | NO |
+| FkAlquileres | int | NO |
+| NombreAlquileresContratos | nvarchar | NO |
+| FkCentros | smallint | NO |
+| FechaFactura | datetime | NO |
+| FkTerceros | int | NO |
+| Nombre | nvarchar | NO |
+| Apellido1 | nvarchar | YES |
+| Apellido2 | nvarchar | YES |
+| NifCif | nvarchar | YES |
+| Direccion1 | nvarchar | NO |
+| Direccion2 | nvarchar | YES |
+| Direccion3 | nvarchar | YES |
+| Direccion4 | nvarchar | YES |
+| FkPagoFormas | nvarchar | NO |
+| DescripcionPagoFormas | nvarchar | NO |
+| CuentaBancaria | nvarchar | YES |
+| FkImpuestos_IVA | nvarchar | YES |
+| ImporteImpuestos_IVA | decimal | YES |
+| DtoPorcImpuestos_IVA | decimal | YES |
+| FkImpuestos_IRPF | nvarchar | YES |
+| ImporteImpuestos_IRPF | decimal | YES |
+| DtoPorcImpuestos_IRPF | decimal | YES |
+| Total_Factura | decimal | NO |
+| Total_BaseImponible | decimal | NO |
+| Total_IVA | decimal | NO |
+| Total_IRPF | decimal | YES |
+| Texto | nvarchar | NO |
+| FechaInicio_PeriodoFacturacion | datetime | NO |
+| FechaFin_PeriodoFacturacion | datetime | NO |
+| FechaVto | datetime | NO |
+| TipoFacturacion | nvarchar | NO |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| TotalBaseExenta | decimal | YES |
+| FkTextoSistema_LPD | int | YES |
+| FkTextoSistema_IRM | int | YES |
+| FkBancoEntidades | nvarchar | YES |
+| FkBancoSucursales | nvarchar | YES |
+| DC | nvarchar | YES |
+| FechaMod | datetime | NO |
+| FkTextoSistema_CSW | int | YES |
+| FkTextoSistema_DS | int | YES |
+| FkTextoSistema_EI | int | YES |
+| FkTextoSistema_TABONOS | int | YES |
+| FkTextoSistema_LPDRtf | int | YES |
+| FactorCambioMonedaContravalor | decimal | YES |

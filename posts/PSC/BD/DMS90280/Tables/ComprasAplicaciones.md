@@ -1,0 +1,56 @@
+# Table: ComprasAplicaciones
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkFkEmpresas | smallint | NO |
+| PkFkEmpresas | smallint | NO |
+| PkFkEmpresas | smallint | NO |
+| PkFkEmpresas | smallint | NO |
+| PKFkCentros | smallint | NO |
+| PKFkCentros | smallint | NO |
+| PKFkCentros | smallint | NO |
+| PKFkCentros | smallint | NO |
+| PkFkAñoExpediente | nvarchar | NO |
+| PkFkAñoExpediente | nvarchar | NO |
+| PkFkAñoExpediente | nvarchar | NO |
+| PkFkAñoExpediente | nvarchar | NO |
+| PkFKSeries_Expediente | nvarchar | NO |
+| PkFKSeries_Expediente | nvarchar | NO |
+| PkFKSeries_Expediente | nvarchar | NO |
+| PkFKSeries_Expediente | nvarchar | NO |
+| PKFkNumExpediente | int | NO |
+| PKFkNumExpediente | int | NO |
+| PKFkNumExpediente | int | NO |
+| PKFkNumExpediente | int | NO |
+| PkFkComprasNumDet | smallint | NO |
+| PkFkComprasNumDet | smallint | NO |
+| PkFkComprasNumDet | smallint | NO |
+| PkFkComprasNumDet | smallint | NO |
+| PkFkAplicaciones | nvarchar | NO |
+| PkFkAplicaciones | nvarchar | NO |
+| PkFkAplicaciones | nvarchar | NO |
+| PkFkAplicaciones | nvarchar | NO |
+| PkFkAplicacionesDatosRegistro | nvarchar | NO |
+| PkFkAplicacionesDatosRegistro | nvarchar | NO |
+| PkFkAplicacionesDatosRegistro | nvarchar | NO |
+| PkFkAplicacionesDatosRegistro | nvarchar | NO |
+| Valor | nvarchar | NO |
+| Valor | nvarchar | NO |
+| Valor | nvarchar | NO |
+| Valor | nvarchar | NO |
+| UserMod | smallint | NO |
+| UserMod | smallint | NO |
+| UserMod | smallint | NO |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| HostMod | nvarchar | NO |
+| HostMod | nvarchar | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| VersionFila | tinyint | NO |
+| VersionFila | tinyint | NO |
+| VersionFila | tinyint | NO |
+| FechaMod | datetime | NO |
+| FechaMod | datetime | NO |
+| FechaMod | datetime | NO |
+| FechaMod | datetime | NO |

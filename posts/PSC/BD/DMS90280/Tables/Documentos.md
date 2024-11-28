@@ -1,0 +1,56 @@
+# Table: Documentos
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkFkEmpresas | smallint | NO |
+| PkDocumentos_Iden | smallint | NO |
+| PkDocumentos_Iden | smallint | NO |
+| PkFkEmpresas | smallint | NO |
+| Descripcion | nvarchar | NO |
+| PkFkDocumentosOperacionTipos | smallint | NO |
+| PkFkDocumentosOperacionTipos | smallint | NO |
+| Descripcion | nvarchar | NO |
+| PkDocumentos_Iden | smallint | NO |
+| FkDocumentosTipos | tinyint | NO |
+| FkDocumentosTipos | tinyint | NO |
+| PkDocumentos_Iden | smallint | NO |
+| PermiteObservaciones | bit | NO |
+| Descripcion | nvarchar | NO |
+| Descripcion | nvarchar | NO |
+| PermiteObservaciones | bit | NO |
+| Particular | bit | NO |
+| UserMod | smallint | NO |
+| UserMod | smallint | NO |
+| Particular | bit | NO |
+| HostMod | nvarchar | NO |
+| Empresa | bit | NO |
+| Empresa | bit | NO |
+| HostMod | nvarchar | NO |
+| Enviar | bit | NO |
+| VersionFila | tinyint | NO |
+| VersionFila | tinyint | NO |
+| Enviar | bit | NO |
+| FechaMod | datetime | NO |
+| Recibir | bit | NO |
+| Recibir | bit | NO |
+| FechaMod | datetime | NO |
+| FechaBaja | datetime | YES |
+| Precarga | bit | NO |
+| Precarga | bit | NO |
+| FechaBaja | datetime | YES |
+| FechaBaja | datetime | YES |
+| UserMod | smallint | NO |
+| UserMod | smallint | NO |
+| FechaBaja | datetime | YES |
+| HostMod | nvarchar | NO |
+| Localizacion | nvarchar | YES |
+| Localizacion | nvarchar | YES |
+| HostMod | nvarchar | NO |
+| CodExterno | nvarchar | YES |
+| VersionFila | tinyint | NO |
+| VersionFila | tinyint | NO |
+| CodExterno | nvarchar | YES |
+| FechaMod | datetime | NO |
+| Modificable | bit | NO |
+| Modificable | bit | NO |
+| FechaMod | datetime | NO |

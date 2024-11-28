@@ -1,0 +1,33 @@
+# Stored Procedure: sp_nif_importa_docum_WebAPI
+
+## Usa los objetos:
+- [[cnt_puc]]
+- [[fn_sis_GetUsuActual]]
+- [[fn_web_GruposUsu]]
+- [[gen_cajas]]
+- [[gen_ccosto]]
+- [[gen_clasif1]]
+- [[gen_clasif2]]
+- [[gen_clasif3]]
+- [[gen_consecsubtipo]]
+- [[gen_consecutivo]]
+- [[gen_gruconsecdet]]
+- [[gen_gruconxusu]]
+- [[gen_monedas]]
+- [[gen_perapl]]
+- [[gen_periodos]]
+- [[gen_permisos]]
+- [[gen_subtipodoc]]
+- [[gen_sucursal]]
+- [[gen_terceros]]
+- [[nif_auditoria]]
+- [[nif_cabdoc]]
+- [[nif_cuedoc]]
+- [[nif_inf_con]]
+- [[nif_puc]]
+- [[sis_aplicacion]]
+- [[sis_usuarios]]
+- [[sp_gen_numerador]]
+- [[sp_nif_ajustedc_doc]]
+
+*No code available.*

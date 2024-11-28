@@ -1,0 +1,14 @@
+# Table: IntencionesCompra
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkFkEmpresas | smallint | NO |
+| PkFkCentros | smallint | NO |
+| PkIntencionesCompra | nvarchar | NO |
+| FkMarcas | smallint | YES |
+| Descripcion | nvarchar | NO |
+| FechaBaja | datetime | YES |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| FechaMod | datetime | NO |

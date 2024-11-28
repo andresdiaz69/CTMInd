@@ -1,0 +1,33 @@
+# Stored Procedure: sp_tes_pagoach
+
+## Usa los objetos:
+- [[cxp_auditoria]]
+- [[cxp_cabdoc]]
+- [[cxp_cuedoc]]
+- [[cxp_param]]
+- [[cxp_param_cnt]]
+- [[cxp_provee]]
+- [[err_infcon]]
+- [[err_infnif]]
+- [[fn_sis_GetUsuActual]]
+- [[fn_web_GruposUsu]]
+- [[gen_perapl]]
+- [[gen_periodos]]
+- [[gen_permisos]]
+- [[gen_subtipodoc]]
+- [[gen_tasas]]
+- [[sis_usuarios]]
+- [[sp_gen_afecon_linea_proc]]
+- [[sp_gen_numerador]]
+- [[sp_tes_afecon]]
+- [[tes_auditoria]]
+- [[tes_bancos]]
+- [[tes_cabdoc]]
+- [[tes_cuedoc]]
+- [[tes_errconta]]
+- [[tes_pago_ach]]
+- [[tes_pago_ach_control]]
+- [[tes_param]]
+- [[tes_plano_ins_ach]]
+
+*No code available.*

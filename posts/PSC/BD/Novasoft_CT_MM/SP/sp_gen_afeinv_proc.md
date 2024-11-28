@@ -1,0 +1,30 @@
+# Stored Procedure: sp_gen_afeinv_proc
+
+## Usa los objetos:
+- [[cxc_cliente]]
+- [[cxc_succli]]
+- [[cxp_provee]]
+- [[cxp_sucprov]]
+- [[fn_sis_GetUsuActual]]
+- [[gen_actividad]]
+- [[gen_consecutivo]]
+- [[gen_perapl]]
+- [[gen_periodos]]
+- [[gen_retencion]]
+- [[gen_subtipodoc]]
+- [[inv_auditoria]]
+- [[inv_cabdoc]]
+- [[inv_cuedoc]]
+- [[inv_errores]]
+- [[inv_inf_inv]]
+- [[inv_items]]
+- [[inv_param_cnt]]
+- [[sp_gen_numerador]]
+- [[sp_inv_asigpedido]]
+- [[sp_inv_trn700]]
+- [[sp_inv_validabases_fac]]
+- [[v_gen_incons_inv01]]
+- [[v_inv_acumen]]
+- [[v_inv_lotes]]
+
+*No code available.*

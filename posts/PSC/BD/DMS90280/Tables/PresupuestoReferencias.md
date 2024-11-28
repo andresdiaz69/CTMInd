@@ -1,0 +1,50 @@
+# Table: PresupuestoReferencias
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkFkEmpresas | smallint | NO |
+| PkFkCentros | smallint | NO |
+| PkFkAñoPresupuesto | nvarchar | NO |
+| PkFkSeries | nvarchar | NO |
+| PkFkNumPresupuesto | int | NO |
+| PkPresupuestoReferencias_Iden | smallint | NO |
+| FkMR | nvarchar | YES |
+| FkReferencias | nvarchar | YES |
+| Descripcion | nvarchar | NO |
+| Precio | decimal | NO |
+| PorcDescuento | decimal | NO |
+| Unidades | decimal | NO |
+| FkManoObraTipos | smallint | YES |
+| FechaBaja | datetime | YES |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| PetMaterial | bit | NO |
+| FkPeticionesMaterial | int | YES |
+| FechaMod | datetime | NO |
+| FkTarifas | tinyint | NO |
+| PrecioCoste | decimal | YES |
+| CodProveedor | nvarchar | YES |
+| FechaEnvioCotizacion | datetime | YES |
+| FechaRespuestaCotizacion | datetime | YES |
+| CotizacionConfirmada | bit | NO |
+| CodigoNif | nvarchar | YES |
+| MantenerPrecioDto | bit | NO |
+| FkClasificacion1 | nvarchar | YES |
+| FkSecciones_Recambios | int | YES |
+| FkVentaCanales | nvarchar | YES |
+| PrecioCI | decimal | YES |
+| PrecioCosteCI | decimal | YES |
+| PrecioDtoCliente | decimal | YES |
+| PrecioGarantia | decimal | YES |
+| IdentificacionAplicacionExterna | nvarchar | YES |
+| FkCentro_Recambios | smallint | YES |
+| NoFacturable | bit | NO |
+| FkMonedas | smallint | YES |
+| FactorCambioMoneda | decimal | YES |
+| FkPeticionesPresupuesto | int | YES |
+| PorcCompensacion | decimal | YES |
+| FactorCambioMonedaContravalor | decimal | YES |
+| FkMarcas_Kit | smallint | YES |
+| TallerKits | nvarchar | YES |
+| Sobretasa | decimal | YES |

@@ -1,0 +1,32 @@
+# Stored Procedure: sp_tes_cruce_creadoc
+
+## Usa los objetos:
+- [[cxc_cliente]]
+- [[cxc_cruce]]
+- [[cxc_cuedoc]]
+- [[cxc_param]]
+- [[cxc_param_cnt]]
+- [[cxp_cruce]]
+- [[cxp_cuedoc]]
+- [[cxp_param]]
+- [[cxp_param_cnt]]
+- [[cxp_provee]]
+- [[err_infcon]]
+- [[fn_sis_GetUsuActual]]
+- [[gen_decapl]]
+- [[gen_perapl]]
+- [[gen_periodos]]
+- [[gen_subtipodoc]]
+- [[gen_tasas]]
+- [[sp_gen_afecon_linea_proc]]
+- [[sp_gen_numerador]]
+- [[sp_tes_afecon]]
+- [[sp_tes_creacxc]]
+- [[sp_tes_creacxp]]
+- [[tes_auditoria]]
+- [[tes_bancos]]
+- [[tes_cabdoc]]
+- [[tes_cuedoc]]
+- [[tes_param]]
+
+*No code available.*

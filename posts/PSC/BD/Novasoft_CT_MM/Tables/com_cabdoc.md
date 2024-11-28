@@ -1,0 +1,54 @@
+# Table: com_cabdoc
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| ano_doc | char | NO |
+| per_doc | char | NO |
+| tip_doc | char | NO |
+| num_doc | char | NO |
+| fecha | datetime | NO |
+| des_mov | text | YES |
+| ano_ref | char | YES |
+| per_ref | char | YES |
+| tip_ref | char | YES |
+| num_ref | char | YES |
+| cod_prv | char | YES |
+| fch_ent | datetime | YES |
+| cau_ter | char | YES |
+| num_ofe | char | YES |
+| cod_ide | char | YES |
+| val_tot | money | YES |
+| val_ofe | char | YES |
+| gar_ofe | char | YES |
+| cal_ser | decimal | YES |
+| cal_cal | decimal | YES |
+| cal_cum | decimal | YES |
+| for_pago | char | YES |
+| cod_emp | char | YES |
+| est_doc | char | YES |
+| cau_est | char | YES |
+| tip_con | smallint | YES |
+| act_apr | char | YES |
+| fch_act | datetime | YES |
+| req_cum | smallint | YES |
+| ori_doc | smallint | YES |
+| val_def | money | YES |
+| num_min | smallint | YES |
+| fch_not | datetime | YES |
+| fch_leg | datetime | YES |
+| tip_ret | char | YES |
+| cambio | char | YES |
+| cod_act | char | YES |
+| grupo | char | YES |
+| usuario | nvarchar | NO |
+| cod_cco | char | YES |
+| cod_mon | char | YES |
+| tip_com | smallint | YES |
+| des_cco | char | YES |
+| ind_asg | bit | NO |
+| val_cau | money | YES |
+| res_con | char | YES |
+| res_sig | char | YES |
+| ind_cnv | int | YES |
+| ind_cmb | int | YES |
+| ind_cfh | int | YES |

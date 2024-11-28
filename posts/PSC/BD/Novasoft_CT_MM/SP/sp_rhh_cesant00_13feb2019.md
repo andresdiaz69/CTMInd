@@ -1,0 +1,28 @@
+# Stored Procedure: sp_rhh_cesant00_13feb2019
+
+## Usa los objetos:
+- [[fn_rhh_ModoEmp]]
+- [[fn_rhh_SueldoFch]]
+- [[fn_rhh_ValNovFija]]
+- [[fn_rhh_ValParmConv]]
+- [[fn_rhh_VG]]
+- [[rhh_basesliqpres]]
+- [[rhh_caucesa]]
+- [[rhh_concesa]]
+- [[rhh_emplea]]
+- [[rhh_hisantic]]
+- [[rhh_hislab]]
+- [[Rhh_LiqHis]]
+- [[Rhh_TbClasAus]]
+- [[Rhh_Tbtipaus]]
+- [[rhh_tipcon]]
+- [[rhh_tipoliq]]
+- [[sp_gen_dp]]
+- [[sp_rhh_ausent01]]
+- [[sp_rhh_IntCesant]]
+- [[sp_rhh_LiqConsVarPub]]
+- [[Sp_rhh_LiqCte]]
+- [[sp_rhh_liqhi04]]
+- [[V_rhh_concep]]
+
+*No code available.*

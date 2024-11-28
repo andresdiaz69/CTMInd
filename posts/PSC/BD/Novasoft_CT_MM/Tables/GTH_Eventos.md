@@ -1,0 +1,53 @@
+# Table: GTH_Eventos
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| cod_even | varchar | NO |
+| nom_even | varchar | YES |
+| cod_cia | char | NO |
+| cod_suc | char | NO |
+| cod_cco | char | NO |
+| cod_cl1 | varchar | NO |
+| cod_cl2 | varchar | NO |
+| cod_cl3 | varchar | NO |
+| cod_cl4 | varchar | NO |
+| cod_cl5 | varchar | NO |
+| cod_cl6 | varchar | NO |
+| cod_cl7 | varchar | NO |
+| cod_area | varchar | NO |
+| tip_eve | char | NO |
+| Descrip_even | varchar | YES |
+| nom_instruc | varchar | YES |
+| fch_prog | datetime | YES |
+| fec_eje | datetime | YES |
+| Eval_Even | varchar | YES |
+| Obs_Even | varchar | YES |
+| val_pre | money | YES |
+| val_eje | money | YES |
+| Asist_pre | smallint | YES |
+| Asist_real | smallint | YES |
+| Fec_cierre | datetime | YES |
+| Entidad | varchar | YES |
+| Cod_est | char | YES |
+| Dura_even | float | YES |
+| cod_estud | char | YES |
+| cod_ins | char | YES |
+| cod_conv | varchar | YES |
+| tip_Comp_Org | char | YES |
+| cod_comp | char | YES |
+| cod_eva | varchar | YES |
+| ind_abierto | bit | YES |
+| niv_aprob | decimal | YES |
+| cod_cla_eve | char | YES |
+| reinduccion | bit | YES |
+| Cod_Dependencia | char | YES |
+| Cod_grupo_interno | char | YES |
+| cod_eje_tema | int | YES |
+| fec_insc_ini | datetime | YES |
+| fec_insc_fin | datetime | YES |
+| ind_insc_vol | bit | YES |
+| cod_prov | char | YES |
+| doc_anx | varbinary | YES |
+| nom_anx | varchar | YES |
+| id_uniq | uniqueidentifier | NO |
+| cod_rel_clima | char | YES |

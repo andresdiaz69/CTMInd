@@ -1,0 +1,33 @@
+# Stored Procedure: sp_opr_factura_02
+
+## Usa los objetos:
+- [[cxc_cliente]]
+- [[cxc_succli]]
+- [[fn_sis_GetUsuActual]]
+- [[gen_actividad]]
+- [[gen_consecutivo]]
+- [[gen_decapl]]
+- [[gen_retencion]]
+- [[gen_subtipodoc]]
+- [[gen_sucursal]]
+- [[inv_cabdoc]]
+- [[inv_cuedoc]]
+- [[inv_items]]
+- [[inv_param_cnt]]
+- [[opr_contratos]]
+- [[opr_costos]]
+- [[opr_det_contratos]]
+- [[opr_fac_cliente]]
+- [[opr_param]]
+- [[opr_sitios]]
+- [[opr_tmp_facturas]]
+- [[opr_vencimientos]]
+- [[sp_gen_afecon_linea_proc]]
+- [[sp_gen_numerador]]
+- [[sp_inv_afecon]]
+- [[sp_inv_calc_imp_adi_ori]]
+- [[sp_inv_trn700]]
+- [[sp_inv_validabases_fac]]
+- [[sp_opr_factura_08]]
+
+*No code available.*

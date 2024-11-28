@@ -1,0 +1,32 @@
+# Stored Procedure: rs_rhh_RepNom204a
+
+## Usa los objetos:
+- [[fn_gen_monto]]
+- [[fn_rhh_CargoFch_Cont]]
+- [[fn_rhh_ccosto]]
+- [[fn_rhh_clasif1]]
+- [[fn_rhh_clasif2]]
+- [[fn_rhh_clasif3]]
+- [[fn_rhh_compania]]
+- [[fn_rhh_Convenio]]
+- [[fn_rhh_Empleado]]
+- [[fn_rhh_Empleados_Usuario]]
+- [[fn_Rhh_FondoFch]]
+- [[fn_rhh_sucursal]]
+- [[fn_sis_GetUsuActual]]
+- [[gen_bancos]]
+- [[gen_ccosto]]
+- [[gen_clasif1]]
+- [[gen_sucursal]]
+- [[gen_tipide]]
+- [[rhh_cargos]]
+- [[rhh_emplea]]
+- [[rhh_liqhis]]
+- [[rhh_liqmes]]
+- [[Rhh_tbfondos]]
+- [[sis_aplicacion]]
+- [[sp_rhh_SueldoFch_Cont]]
+- [[v_rhh_concep]]
+- [[v_rhh_tipliquid]]
+
+*No code available.*

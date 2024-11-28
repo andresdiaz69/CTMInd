@@ -1,0 +1,53 @@
+# Table: spiga_DatosTerceros
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| IdSincronizacionSpiga | int | NO |
+| IdConsecutivo | int | NO |
+| Ano_Periodo | int | NO |
+| Mes_Periodo | int | NO |
+| FechaDeCorte | datetime | NO |
+| PkFkEmpresas | smallint | YES |
+| NombreEmpresa | nvarchar | YES |
+| PkTerceros | int | YES |
+| FkPaises | nvarchar | YES |
+| FkTerceroClases | tinyint | YES |
+| NombreTerceroClases | nvarchar | YES |
+| NifCif | nvarchar | YES |
+| NifCif_FechaExpedicion | datetime | YES |
+| NifCif_LugarExpedicion | nvarchar | YES |
+| Nombre | nvarchar | YES |
+| Apellido1 | nvarchar | YES |
+| Apellido2 | nvarchar | YES |
+| NombreComercial | nvarchar | YES |
+| FechaAlta | datetime | YES |
+| FechaBaja | datetime | YES |
+| FkDocumentacionTipos | tinyint | YES |
+| DescrpcionDocumentacionTipos | nvarchar | YES |
+| FkNaturalezaJuridicaTipos | nvarchar | YES |
+| DescripcionNaturalezaJuridicaTipos | nvarchar | YES |
+| TipoContribuyente | nvarchar | YES |
+| DescripcionTipoContribuyente | nvarchar | YES |
+| AgenteRetenedor | bit | YES |
+| FechaTipoContribuyente | datetime | YES |
+| Resolucion | nvarchar | YES |
+| FkCodigosPostales | nvarchar | YES |
+| Poblacion | nvarchar | YES |
+| Provincia | nvarchar | YES |
+| fkprofesiones | smallint | YES |
+| DescripcionProfesiones | nvarchar | YES |
+| FkTerceroCargos | tinyint | YES |
+| DescripcionTercerosCargos | nvarchar | YES |
+| FkTerceroFormacionNiveles | tinyint | YES |
+| DescripcionTerceroFormacionNiveles | nvarchar | YES |
+| FechaNacimiento | datetime | YES |
+| FechaCarnet | datetime | YES |
+| FechaCarnetCaducidad | datetime | YES |
+| NumeroHijos | tinyint | YES |
+| FkEstadoCivilTipos | nvarchar | YES |
+| DEscripcionEstadoCivilTipos | nvarchar | YES |
+| sexo | nvarchar | YES |
+| FkActividadTipos | nvarchar | YES |
+| DescripcionActividadTipos | nvarchar | YES |
+| ClaseConcepto | nvarchar | YES |
+| NumLicenciaConducir | nvarchar | YES |

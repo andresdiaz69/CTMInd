@@ -1,0 +1,55 @@
+# Table: com_cuedoc
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| ano_doc | char | NO |
+| per_doc | char | NO |
+| tip_doc | char | NO |
+| num_doc | char | NO |
+| reg_doc | int | NO |
+| cod_des | char | NO |
+| cod_ite | char | YES |
+| can_ite | money | YES |
+| val_unt | money | YES |
+| por_dct | decimal | YES |
+| val_dct | money | YES |
+| por_iva | decimal | YES |
+| val_iva | money | YES |
+| val_tot | money | YES |
+| obs_ite | text | YES |
+| sal_ite | money | YES |
+| trans | int | YES |
+| tip_reg | char | YES |
+| cod_und | char | YES |
+| cod_suc | char | YES |
+| cod_cco | char | YES |
+| cod_cl1 | char | YES |
+| cod_cl2 | char | YES |
+| cod_cl3 | char | YES |
+| val_def | money | YES |
+| val_imp | money | YES |
+| por_ret | decimal | YES |
+| val_ret | money | YES |
+| ret_iva | money | YES |
+| ret_ica | money | YES |
+| subtotal | money | YES |
+| ant_iva | money | YES |
+| fch_ent | datetime | YES |
+| just_ite | text | YES |
+| gar_ofe | char | YES |
+| cod_mon | char | YES |
+| ind_asg | bit | NO |
+| val_ite | money | YES |
+| tip_pro | smallint | YES |
+| sal_val | money | YES |
+| cos_uni | float | YES |
+| val_seg | money | YES |
+| nom_eqp | char | YES |
+| nom_mar | char | YES |
+| nom_mod | text | YES |
+| num_ser | char | YES |
+| cod_pla | char | YES |
+| con_fun | text | YES |
+| con_tec | text | YES |
+| cod_rub | char | YES |
+| modkey | timestamp | YES |

@@ -1,0 +1,53 @@
+# Table: ArchivosInfoFirmasPendientes
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkFkArchivos | int | NO |
+| FkBiofirmaSistemas | smallint | NO |
+| FkEmpresas | smallint | NO |
+| FkCentros | smallint | NO |
+| FkSecciones | int | YES |
+| FkEmpleados | smallint | YES |
+| NumFirmasDocumento | tinyint | NO |
+| NumFirmasConSellado | tinyint | NO |
+| NumFirmasCliente | tinyint | NO |
+| EmailClientesANotificar | nvarchar | YES |
+| EmailEmpleadosANotificar | nvarchar | YES |
+| FkTerceros_Cliente | int | YES |
+| ClaveDocumento | nvarchar | YES |
+| NombreDocumento | nvarchar | YES |
+| DescripcionDocumento | nvarchar | YES |
+| FkUsuarios | smallint | YES |
+| FkTiposDocumento | smallint | YES |
+| FkTiposDocumentoDet | smallint | YES |
+| Modulo | nvarchar | YES |
+| TablaBase | nvarchar | YES |
+| ProcedureBase | nvarchar | YES |
+| Parameters | nvarchar | YES |
+| NombreDocumentoArchivo | nvarchar | YES |
+| ComentarioDocumento | nvarchar | YES |
+| WorkFolder | nvarchar | YES |
+| InputFolder | nvarchar | YES |
+| OutputFolder | nvarchar | YES |
+| InputFilename | nvarchar | YES |
+| OutputFilename | nvarchar | YES |
+| PdfsFilename | nvarchar | YES |
+| VisorFilename | nvarchar | YES |
+| PatronSpigaFilename | nvarchar | YES |
+| TipoMarcaTemporal | nvarchar | YES |
+| SignatureSystem | nvarchar | YES |
+| SignatureType | tinyint | YES |
+| SignatureAppPath | nvarchar | YES |
+| SignatureWsURL | nvarchar | YES |
+| SignatureWsPuenteURL | nvarchar | YES |
+| SignatureWsToken | nvarchar | YES |
+| SignatureRutaCertificado | nvarchar | YES |
+| SignatureUsuarioId | bigint | YES |
+| SignatureDestinoId | nvarchar | YES |
+| SignatureDocumentoSubidoId | nvarchar | YES |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| FechaMod | datetime | NO |
+| ProcedureCompleto | nvarchar | YES |
+| Filename | nvarchar | YES |

@@ -1,0 +1,52 @@
+# Table: spiga_FormasDePagoCotizacionesVNVO
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| IdSincronizacionSpiga | int | NO |
+| IdConsecutivo | int | NO |
+| Ano_Periodo | int | NO |
+| Mes_Periodo | int | NO |
+| FechaDeCorte | datetime | NO |
+| IdEmpresas | smallint | YES |
+| IdCentros | smallint | YES |
+| IdTerceros | int | YES |
+| IdClientesPotEntradas | smallint | YES |
+| IdOfertas | smallint | YES |
+| IdOfertaPagos | smallint | YES |
+| IdPagoTipos | smallint | YES |
+| Fecha | datetime | YES |
+| FechaVencimiento | datetime | YES |
+| Importe | decimal | YES |
+| IdTercerosFinanciera | int | YES |
+| IdRecibos | int | YES |
+| Descripcion | nvarchar | YES |
+| UserMod | smallint | YES |
+| HostMod | nvarchar | YES |
+| VersionFila | tinyint | YES |
+| ComisionFinanciera | decimal | YES |
+| IdAnulado | int | YES |
+| AnoFactura | nvarchar | YES |
+| SerieFactura | nvarchar | YES |
+| NumFactura | nvarchar | YES |
+| IdEmpleadosGestor | smallint | YES |
+| FechaAnulacion | datetime | YES |
+| FechaAbono | datetime | YES |
+| IdAñoFacturaAbonado | nvarchar | YES |
+| IdSeriesFacturaAbonado | nvarchar | YES |
+| IdNumFacturaAbonado | nvarchar | YES |
+| NombreTerceroFinanciera | nvarchar | YES |
+| IdMonedas | smallint | YES |
+| FactorCambioMoneda | decimal | YES |
+| IdOfertasFinanciacionesEstados | smallint | YES |
+| BaseImponibleAnticipo | decimal | YES |
+| IdTercerosAnticipo | int | YES |
+| NombreTercerosAnticipo | nvarchar | YES |
+| Apellido1TercerosAnticipo | nvarchar | YES |
+| Apellido2TercerosAnticipo | nvarchar | YES |
+| IdTercerosRecibo | int | YES |
+| NombreTercerosRecibo | nvarchar | YES |
+| Apellido1TercerosRecibo | nvarchar | YES |
+| Apellido2TercerosRecibo | nvarchar | YES |
+| FinanciacionManual | bit | YES |
+| IdPagoFormaTipos | nvarchar | YES |
+| DescripcionPagosTipos | nvarchar | YES |

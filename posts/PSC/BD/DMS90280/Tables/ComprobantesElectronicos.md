@@ -1,0 +1,56 @@
+# Table: ComprobantesElectronicos
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkComprobantesElectronicos_Iden | int | NO |
+| FkDocumentoEmitidoTipos | smallint | NO |
+| FkComprobanteElectronicoEstados | tinyint | NO |
+| FechaDocumentoEmitido | datetime | NO |
+| FkComprobanteEmisionTipos | tinyint | YES |
+| NIFEmisor | nvarchar | NO |
+| ClaveDocumento | nvarchar | YES |
+| NumeroSecuencialComprobante | nvarchar | YES |
+| NumeroAutorizacionTemporal | nvarchar | YES |
+| NumeroAutorizacion | nvarchar | YES |
+| FechaAutorizacion | datetime | YES |
+| FkEmpresas | smallint | NO |
+| FkAñoAsiento | nvarchar | YES |
+| FkAsientos | int | YES |
+| Año | nvarchar | YES |
+| FkSeries | nvarchar | YES |
+| Numero | nvarchar | YES |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| FechaMod | datetime | NO |
+| FechaUltimoEnvio | datetime | YES |
+| FkModulos | nvarchar | YES |
+| SerieSufijoA | nvarchar | YES |
+| SerieSufijoB | nvarchar | YES |
+| FechaNotificacion | datetime | YES |
+| NumIntentosNotificacion | tinyint | YES |
+| FechaUltimoIntentoNotificacion | datetime | YES |
+| EmailNotificacion | nvarchar | YES |
+| FkComprobantesElectronicosOrigen | smallint | YES |
+| FechaAlta | datetime | YES |
+| Comunicado | bit | YES |
+| FechaAnulacion | datetime | YES |
+| HostAnulacion | nvarchar | YES |
+| FkUsuarios_Anulacion | smallint | YES |
+| URLDocumento | nvarchar | YES |
+| FkRecursos | int | YES |
+| FkCentros | smallint | YES |
+| FkTerceros_Receptor | int | YES |
+| FkComprobantesRetenciones | int | YES |
+| NumIntentosAutorizacion | tinyint | YES |
+| FkComprobanteElectronicoAprobaciones | tinyint | YES |
+| FkComprobanteElectronicoTerceroEstados | tinyint | YES |
+| MotivoRechazoAprobacionComercial | nvarchar | YES |
+| MotivoErrorEnvioTercero | nvarchar | YES |
+| AcuseRecibo | bit | YES |
+| SuReferencia | nvarchar | YES |
+| FkComprobanteMotivosContingencia | smallint | YES |
+| XMLAutorizacion_Zip | varbinary | YES |
+| XMLAutorizacion | nvarchar | YES |
+| ComprobantePago | bit | YES |
+| FkUsosCFDI | nvarchar | YES |

@@ -1,0 +1,54 @@
+# Table: nif_datosdian2006
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| cod_con | char | NO |
+| cod_for | char | NO |
+| nit_ter | char | NO |
+| dig_ver | char | NO |
+| clase | char | NO |
+| raz_soc | varchar | YES |
+| pri_val | money | NO |
+| seg_val | money | NO |
+| nit_man | char | YES |
+| dig_man | char | YES |
+| ap1_man | char | YES |
+| ap2_man | char | YES |
+| nom1_man | char | YES |
+| nom2_man | char | YES |
+| cod_ano | char | NO |
+| cod_suc | char | NO |
+| cod_cta | char | NO |
+| Per_doc | char | NO |
+| sub_tip | char | NO |
+| Tip_doc | char | NO |
+| Num_doc | char | NO |
+| Ind_aut | tinyint | NO |
+| Ter_reg | smallint | NO |
+| Ind_nac | smallint | NO |
+| Descrip | char | NO |
+| Ter_dir | varchar | YES |
+| Cod_ciu | char | NO |
+| Cod_pai | char | NO |
+| ap1_ter | char | YES |
+| ap2_ter | char | YES |
+| nom1_ter | char | YES |
+| nom2_ter | char | YES |
+| por_par | decimal | YES |
+| valor3 | money | NO |
+| valor4 | money | NO |
+| valor5 | money | NO |
+| valor6 | money | NO |
+| valor7 | money | YES |
+| valor8 | money | NO |
+| valor9 | money | NO |
+| razm | char | YES |
+| tdocm | char | YES |
+| dirm | char | YES |
+| dptom | char | YES |
+| munm | char | YES |
+| paism | char | YES |
+| cod_apl | char | YES |
+| valor10 | money | NO |
+| valor11 | money | NO |
+| e_mail | varchar | YES |

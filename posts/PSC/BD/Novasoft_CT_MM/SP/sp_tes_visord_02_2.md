@@ -1,0 +1,30 @@
+# Stored Procedure: sp_tes_visord_02_2
+
+## Usa los objetos:
+- [[cxp_provee]]
+- [[fn_sis_GetUsuActual]]
+- [[gen_clasif]]
+- [[gen_subtipodoc]]
+- [[prp_cabdoc]]
+- [[prp_cabodp]]
+- [[prp_vargen]]
+- [[sp_gen_afecon_linea_proc]]
+- [[sp_gen_numerador]]
+- [[sp_prp_validapac]]
+- [[sp_ser_trazabilidadCRUD]]
+- [[sp_tes_afecon]]
+- [[sp_tes_generacheque]]
+- [[sp_tes_presu_020]]
+- [[tes_auditoria]]
+- [[tes_bancos]]
+- [[tes_cabdoc]]
+- [[tes_cabodp]]
+- [[tes_chequeras]]
+- [[tes_cuedoc]]
+- [[tes_cueodp]]
+- [[tes_flujos]]
+- [[tes_param]]
+- [[tes_saldos_ban]]
+- [[tes_tmp_giros]]
+
+*No code available.*

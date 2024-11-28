@@ -1,0 +1,10 @@
+# Table: PlantillasDocumentoTiposRegimenContable
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkFkPlantillasDocumentoTipos | nvarchar | NO |
+| PkFkRegimenContable | nvarchar | NO |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| FechaMod | datetime | NO |

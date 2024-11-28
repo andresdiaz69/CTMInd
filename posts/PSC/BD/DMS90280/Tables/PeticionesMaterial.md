@@ -1,0 +1,56 @@
+# Table: PeticionesMaterial
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkFkEmpresas | smallint | NO |
+| PkFkCentros | smallint | NO |
+| PkPeticionesMaterial_Iden | int | NO |
+| FkSecciones | int | NO |
+| FkAñoOT | nvarchar | YES |
+| FkSeries_OT | nvarchar | YES |
+| FkNumOT | int | YES |
+| FkNumTrabajo | tinyint | YES |
+| FkCitas | int | YES |
+| FkCitasDet | smallint | YES |
+| FkMR | nvarchar | YES |
+| FkReferencias | nvarchar | YES |
+| Descripcion | nvarchar | YES |
+| Observaciones | nvarchar | YES |
+| Unidades | decimal | NO |
+| FkAñoPedidoCliente | nvarchar | YES |
+| FkSeries_PedidoCliente | nvarchar | YES |
+| FkPedidoCliente | int | YES |
+| Accion | nvarchar | YES |
+| FkVehiculos | int | NO |
+| FkEmpleados_Taller | smallint | NO |
+| Precio | decimal | YES |
+| DtoPorc | decimal | YES |
+| FechaAlta | datetime | NO |
+| FechaBaja | datetime | YES |
+| FkUsuarios_Baja | smallint | YES |
+| FkUsuarios_Bloqueo | smallint | YES |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| FkTerceros | int | NO |
+| FkPedidoClienteDet | int | YES |
+| ObservacionesRecambios | nvarchar | YES |
+| FkAñoPresupuesto | nvarchar | YES |
+| FkSeries_Presupuesto | nvarchar | YES |
+| FkNumPresupuesto | int | YES |
+| FechaMod | datetime | NO |
+| BloquearPrecioDto | bit | NO |
+| NoFacturable | bit | NO |
+| FechaEnvioCotizacion | datetime | YES |
+| FechaRespuestaCotizacion | datetime | YES |
+| CodProveedorCotizacion | nvarchar | YES |
+| CodNifCotizacion | nvarchar | YES |
+| IdentificacionAplicacionExterna | nvarchar | YES |
+| PrecioCotizacion | decimal | YES |
+| FkMotivosVentaPerdida | nvarchar | YES |
+| FkPeticionPresupuesto | int | YES |
+| CodExterno | nvarchar | YES |
+| PosExterno | nvarchar | YES |
+| FkMarcas | smallint | YES |
+| FkTallerKits | nvarchar | YES |
+| VehiculoInmovilizado | bit | NO |

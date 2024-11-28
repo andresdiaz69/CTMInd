@@ -1,0 +1,53 @@
+# Table: act_ftterrenos
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| cod_pla | char | NO |
+| tip_inm | char | YES |
+| tip_ava | char | YES |
+| dir_inm | char | YES |
+| uso_inm | char | YES |
+| ubi_inm | char | YES |
+| ady_nor | char | YES |
+| ady_sur | char | YES |
+| ady_ori | char | YES |
+| ady_occ | char | YES |
+| tit_com | char | YES |
+| num_esc | char | YES |
+| fec_esc | datetime | YES |
+| not_esc | char | YES |
+| mat_inm | char | YES |
+| reg_cat | char | YES |
+| fre_ter | money | YES |
+| fon_ter | money | YES |
+| cab_ter | money | YES |
+| tot_ter | money | YES |
+| lin_nor | char | YES |
+| lin_sur | char | YES |
+| lin_ori | char | YES |
+| lin_occ | char | YES |
+| asp_gen | varchar | YES |
+| eda_inm | char | YES |
+| con_inm | char | YES |
+| act_sec | char | YES |
+| tip_alc | char | YES |
+| num_est | char | YES |
+| serv_inm | varchar | YES |
+| fec_ava | datetime | YES |
+| val_ava | money | YES |
+| fec_ins | datetime | YES |
+| enc_ins | char | YES |
+| area_act | char | YES |
+| trat_inm | char | YES |
+| num_rea | char | YES |
+| uso_prin | char | YES |
+| uso_com | char | YES |
+| uso_res | char | YES |
+| det_tip | char | YES |
+| nom_urb | char | YES |
+| alc_men | char | YES |
+| rel_ter | char | YES |
+| con_ter | char | YES |
+| path_foto | char | YES |
+| fot_ter | varbinary | YES |
+| ID_Uniq | uniqueidentifier | YES |

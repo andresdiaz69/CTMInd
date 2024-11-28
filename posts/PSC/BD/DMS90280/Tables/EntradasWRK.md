@@ -1,0 +1,52 @@
+# Table: EntradasWRK
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkFkEmpresas | smallint | NO |
+| PkFkCentros | smallint | NO |
+| PkAñoEntradasAlbaran | nvarchar | NO |
+| PkFkTerceros | int | NO |
+| PkSeries_Entradas | nvarchar | NO |
+| PkNumEntradasAlbaran | nvarchar | NO |
+| FechaAlta | datetime | NO |
+| FechaDocumento | datetime | NO |
+| ExentoIva | bit | NO |
+| ImpuestosEspeciales | bit | NO |
+| FkPagoFormas | nvarchar | NO |
+| FkSecciones | int | NO |
+| FkEmpleados_Usuario | smallint | NO |
+| FkCompraTipos | smallint | NO |
+| Portes | decimal | YES |
+| Embalajes | decimal | YES |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| Reubicadora | bit | YES |
+| FechaMod | datetime | NO |
+| AlbaranImportacion | bit | NO |
+| FkImpuestos_PortesEmbalajes | nvarchar | NO |
+| PorcImpuestoPortesEmbalajes | decimal | NO |
+| Observaciones | nvarchar | YES |
+| BaseImponibleFactura | decimal | YES |
+| FactorCambioMonedaContravalor | decimal | YES |
+| FechaValidacion | datetime | YES |
+| FkMonedas | smallint | YES |
+| FactorCambio | decimal | YES |
+| FkPaises_Compra | nvarchar | YES |
+| FechaEmbarque | datetime | YES |
+| FechaLlegada | datetime | YES |
+| FechaDespacho | datetime | YES |
+| NombreBuque | nvarchar | YES |
+| NumeroConocimientoEmbarque | nvarchar | YES |
+| FkTerceros_IntermediarioAduanero | int | YES |
+| ModalidadDespacho | nvarchar | YES |
+| FkEstadosEntrada | smallint | YES |
+| FkUsos | nvarchar | YES |
+| NumeroDespacho | nvarchar | YES |
+| FkMonedas_Intermedia | smallint | YES |
+| FactorCambioMonedaAIntermedia | decimal | YES |
+| FactorCambioMonedaDesdeIntermedia | decimal | YES |
+| PuertoEmbarque | nvarchar | YES |
+| CiudadDestino | nvarchar | YES |
+| PortesEmbalajesExentos | bit | NO |
+| FkEntradasOrigen | smallint | YES |

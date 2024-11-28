@@ -1,0 +1,31 @@
+# Stored Procedure: rs_gth_gth096
+
+## Usa los objetos:
+- [[gen_ciudad]]
+- [[gen_deptos]]
+- [[gen_paises]]
+- [[GTH_Calificacion]]
+- [[GTH_Competencias]]
+- [[GTH_EvalSolCargo]]
+- [[GTH_Evalua]]
+- [[GTH_RefeTipo]]
+- [[GTH_Requisicion]]
+- [[GTH_RequisicionEmp]]
+- [[GTH_RptAssessment]]
+- [[GTH_RptAssessmentDet]]
+- [[GTH_RptEntrevDet]]
+- [[GTH_RptEntrevista]]
+- [[GTH_RptPbaEmp]]
+- [[GTH_RptRefePers]]
+- [[GTH_RptRefePersDet]]
+- [[GTH_RptVivienda]]
+- [[GTH_TenenciaViv]]
+- [[GTH_TipoViv]]
+- [[rhh_emplea]]
+- [[v_gth_CargoSol]]
+- [[v_GTH_EmplCand]]
+- [[V_GTH_PrueReq]]
+- [[v_GTH_RptEntrevista]]
+- [[v_GTH_RptVisitaDomi]]
+
+*No code available.*

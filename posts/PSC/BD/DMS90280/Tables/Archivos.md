@@ -1,0 +1,16 @@
+# Table: Archivos
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkArchivos_Iden | int | NO |
+| RutaCompleta | nvarchar | NO |
+| Longitud | int | NO |
+| FkTiposDocumento | smallint | NO |
+| Hash | nvarchar | NO |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| FechaMod | datetime | NO |
+| FkTiposDocumentoDet | smallint | YES |
+| FechaAlta | datetime | NO |
+| Comentario | nvarchar | YES |

@@ -1,0 +1,33 @@
+# Stored Procedure: sp_ppe_borra_placas
+
+## Usa los objetos:
+- [[fn_sis_GetUsuActual]]
+- [[ppe_activos]]
+- [[ppe_asociadas]]
+- [[ppe_auditoria]]
+- [[ppe_cabdoc]]
+- [[ppe_componentes]]
+- [[ppe_cuedoc]]
+- [[ppe_distri]]
+- [[ppe_ftarmas]]
+- [[ppe_ftcomputo]]
+- [[ppe_ftedificios]]
+- [[ppe_ftequipos]]
+- [[ppe_ftlibros]]
+- [[ppe_ftmaquinas]]
+- [[ppe_ftmedicos]]
+- [[ppe_ftmuebles]]
+- [[ppe_ftobrasarte]]
+- [[ppe_ftsemovientes]]
+- [[ppe_ftterrenos]]
+- [[ppe_ftvehiculos]]
+- [[ppe_hiscausa]]
+- [[ppe_hisdistri]]
+- [[ppe_histmant]]
+- [[ppe_impuestos]]
+- [[ppe_mescausa]]
+- [[ppe_seguros]]
+- [[ppe_traslados]]
+- [[sp_gen_validatriggers]]
+
+*No code available.*

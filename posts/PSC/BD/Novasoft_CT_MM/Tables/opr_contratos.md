@@ -1,0 +1,49 @@
+# Table: opr_contratos
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| num_cto | varchar | NO |
+| descripcion | varchar | YES |
+| condiciones | varchar | NO |
+| fch_cto | datetime | NO |
+| cod_est | char | NO |
+| val_tot | money | NO |
+| ren_aut | bit | NO |
+| contacto | varchar | YES |
+| usu_jur | nvarchar | NO |
+| fec_ini | datetime | YES |
+| cod_conv | varchar | NO |
+| fac_cons | bit | NO |
+| val_act | money | NO |
+| cuotas | tinyint | YES |
+| periodos | tinyint | NO |
+| fec_fin | datetime | YES |
+| ano_ref | char | YES |
+| per_ref | char | YES |
+| sub_ref | char | YES |
+| num_ref | char | YES |
+| cod_cli | char | YES |
+| dur_con | tinyint | NO |
+| cod_suc | char | NO |
+| cod_cco | char | NO |
+| cod_cl1 | varchar | NO |
+| cod_cl2 | varchar | NO |
+| cod_cl3 | varchar | NO |
+| ins_est | money | NO |
+| pag_des | bit | NO |
+| pag_aux | bit | NO |
+| val_des | tinyint | NO |
+| ind_rno | bit | YES |
+| ind_ptu | bit | NO |
+| mes_renov | tinyint | NO |
+| tip_pre | tinyint | NO |
+| mod_pre | tinyint | NO |
+| tip_cto | char | NO |
+| dias_renov | smallint | NO |
+| fac_AIU | bit | NO |
+| cod_cau | varchar | NO |
+| fch_cau | datetime | YES |
+| ind_costo_aiu | bit | NO |
+| ind_aiu_contrato | bit | NO |
+| ind_aiu_incluido | bit | NO |
+| ind_aiu_dividido | bit | NO |

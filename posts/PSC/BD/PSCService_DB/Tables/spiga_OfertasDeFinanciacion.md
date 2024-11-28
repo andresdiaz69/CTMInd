@@ -1,0 +1,55 @@
+# Table: spiga_OfertasDeFinanciacion
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| IdSincronizacionSpiga | int | NO |
+| IdConsecutivo | int | NO |
+| Ano_Periodo | int | NO |
+| Mes_Periodo | int | NO |
+| FechaDeCorte | datetime | NO |
+| IdEmpresas | smallint | YES |
+| IdAñoOfertasFinanciacion | nvarchar | YES |
+| IdSeriesOfertasFinanciacion | nvarchar | YES |
+| IdNumOfertasFinanciacion | int | YES |
+| IdCentros | smallint | YES |
+| NombreEmpresa | nvarchar | YES |
+| NombreCentro | nvarchar | YES |
+| NombreMarca | nvarchar | YES |
+| NombreGama | nvarchar | YES |
+| CodModelo | nvarchar | YES |
+| NombreModelo | nvarchar | YES |
+| IdTerceros | int | YES |
+| NombreTercero | nvarchar | YES |
+| Apellido1Tercero | nvarchar | YES |
+| Apellido2Tercero | nvarchar | YES |
+| IdOfertasFinanciacionProductoTiposDescripcion | nvarchar | YES |
+| IdOfertasFinanciacionEstadosDescripcion | nvarchar | YES |
+| FechaValidez | datetime | YES |
+| FechaInicioFinanciacion | datetime | YES |
+| FechaFinFinanciacion | datetime | YES |
+| ImporteFinanciar | decimal | YES |
+| CuotaMensual | decimal | YES |
+| Meses | tinyint | YES |
+| PorcSobreImporteTotal | decimal | YES |
+| CapitalPreconcedido | decimal | YES |
+| PorcIntereses | decimal | YES |
+| ImporteComisionApertura | decimal | YES |
+| PorcComisionApertura | decimal | YES |
+| ObligaAval | bit | YES |
+| Aval | nvarchar | YES |
+| ImporteComisionObtencionFinanciacion | decimal | YES |
+| PorcComisionObtencionFinanciacion | decimal | YES |
+| IdTercerosFinanciera | int | YES |
+| NombreTerceroFinanciera | nvarchar | YES |
+| Apellido1TerceroFinanciera | nvarchar | YES |
+| Apellido2TerceroFinanciera | nvarchar | YES |
+| IdOfertasFinanciacionProductoTipos | tinyint | YES |
+| IdOfertasFinanciacionEstados | tinyint | YES |
+| FechaAlta | datetime | YES |
+| IdOfertasFinanciacionFinanciaciones | smallint | YES |
+| IdEmpleados | smallint | YES |
+| NombreEmpleado | nvarchar | YES |
+| Apellido1Empleado | nvarchar | YES |
+| Apellido2Empleado | nvarchar | YES |
+| ImporteFranquicia | decimal | YES |
+| FechaMod | datetime | YES |

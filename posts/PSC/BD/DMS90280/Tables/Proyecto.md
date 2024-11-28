@@ -1,0 +1,50 @@
+# Table: Proyecto
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkFkInstalacion | nvarchar | NO |
+| FkIdioma | nvarchar | NO |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| GTUsuario | nvarchar | YES |
+| GTClave | nvarchar | YES |
+| AUDUsuario | nvarchar | YES |
+| AUDClave | nvarchar | YES |
+| FkInstalacionTipos | nvarchar | NO |
+| AccesoWeb | bit | NO |
+| CreditoRecambiosAseguradoPorEmpresa | bit | NO |
+| HelpCaller | nvarchar | YES |
+| CodificacionSecundariaEnVehiculos | bit | NO |
+| AnulacionContable | bit | NO |
+| CodigoSAP | nvarchar | YES |
+| RutaBaseAlmacenamientoArchivos | nvarchar | YES |
+| FkMonedas | smallint | NO |
+| FechaMod | datetime | YES |
+| CIFLidera | nvarchar | YES |
+| NumCertificadoFiscalSpiga | nvarchar | YES |
+| NumVersionFiscalSpiga | nvarchar | YES |
+| FkMonedas_Contravalor | smallint | YES |
+| ModoImpresionDuplexCombinado | nvarchar | YES |
+| FkMonedas_Impresion | smallint | YES |
+| OcultarDatosTercero | bit | NO |
+| TamañoMaximoLadoLargoImagen | smallint | YES |
+| Impuestos | bit | NO |
+| MonedaSecundaria | bit | NO |
+| MaxVentanasAperturaAutomatica | tinyint | NO |
+| ObligaMonedaFactura | bit | NO |
+| RutaFAQ | nvarchar | YES |
+| VendedorDeRecambios | nvarchar | NO |
+| GIECmdTimeOut | smallint | NO |
+| CacheActiva | bit | YES |
+| ProcedenciaObligatoria | bit | YES |
+| NumeroDigitosMatricula | tinyint | YES |
+| TiempoInactividad | int | YES |
+| GrupoDeDominio | nvarchar | NO |
+| OcultarDatosEmpleados | bit | NO |
+| ControlarAsesorCitas | bit | NO |
+| ExtensionesPermitidasAdjuntos | nvarchar | YES |
+| LongitudMaximaAdjuntosMB | decimal | YES |
+| DobleValidacionPermisos | bit | YES |
+| DifMaxGestionContabilidad | decimal | NO |
+| TimerVerificacionVersionSpiga | int | YES |

@@ -1,0 +1,30 @@
+# Stored Procedure: sp_gth_ConsGridSolCargo
+
+## Usa los objetos:
+- [[gen_compania]]
+- [[GTH_Areas]]
+- [[GTH_EvalSolCargo]]
+- [[GTH_Fuente_Recluta]]
+- [[GTH_Motivo]]
+- [[GTH_RequisicionEmp]]
+- [[GTH_Requisitos]]
+- [[GTH_RequiSolicitud]]
+- [[GTH_RptAssessment]]
+- [[GTH_RptAssessmentDet]]
+- [[GTH_RptCompEmp]]
+- [[GTH_RptEntrevDet]]
+- [[GTH_RptEstudSeguridad]]
+- [[GTH_RptExamenMedico]]
+- [[GTH_RptPbaEmp]]
+- [[GTH_RptRefePersDet]]
+- [[GTH_RptRequiEmp]]
+- [[GTH_RptVisitaDomi]]
+- [[GTH_RptVisitaDomiGen]]
+- [[GTH_Sel_Est_Cand]]
+- [[GTH_Sel_ModelProc]]
+- [[GTH_Sel_Procesos]]
+- [[GTH_Sel_Requi_Proc]]
+- [[v_GTH_EmplCand]]
+- [[v_GTH_RespSolCargo]]
+
+*No code available.*

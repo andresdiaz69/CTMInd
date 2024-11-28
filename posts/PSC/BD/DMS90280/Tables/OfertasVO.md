@@ -1,0 +1,53 @@
+# Table: OfertasVO
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkFkEmpresas | smallint | NO |
+| PkFkCentros | smallint | NO |
+| PkFkTerceros | int | NO |
+| PkFkClientesPotEntradas | smallint | NO |
+| PkOfertasVO_Iden | smallint | NO |
+| FkOfertasEstados | smallint | NO |
+| FkSeries_Expediente_Reserva | nvarchar | YES |
+| FkNumExpediente_Reserva | int | YES |
+| FkAñoExpediente_Reserva | nvarchar | YES |
+| FkCentros_ExpedienteReserva | smallint | YES |
+| FkSecciones | int | NO |
+| FkVentaTipos | nvarchar | NO |
+| FkRegistroTipos | nvarchar | NO |
+| FechaAlta | datetime | NO |
+| FechaValidez | datetime | NO |
+| FechaReserva | datetime | YES |
+| TotalOferta | decimal | NO |
+| ObservacionesFactura | nvarchar | YES |
+| ObservacionesInternas | nvarchar | YES |
+| FkTerceros_Contactos | int | YES |
+| FkRecursos | int | YES |
+| FkEmpleados_Vendedor | smallint | NO |
+| UsuarioImporte | bit | NO |
+| FkTerceros_Financiera | int | YES |
+| FechaPrevista | datetime | YES |
+| FkComprasNumDet | smallint | NO |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| FkRegistroTipos_Compra | nvarchar | NO |
+| FkEmpresas_ExpedienteReserva | smallint | YES |
+| FkImpuestos | nvarchar | NO |
+| PorcImpuestos | decimal | NO |
+| DescripcionImpuesto | nvarchar | YES |
+| CosteAproximado | decimal | YES |
+| FechaMod | datetime | NO |
+| FkMonedas | smallint | YES |
+| FactorCambioMoneda | decimal | YES |
+| FkAñoOferta | nvarchar | YES |
+| FkSeriesOferta | nvarchar | YES |
+| FkNumOferta | nvarchar | YES |
+| SuReferencia | nvarchar | YES |
+| TerceroInteresado | bit | NO |
+| FkAplicaciones_Aceptado | nvarchar | YES |
+| FkOfertaVOAplicacionesMensajes_Aceptado | smallint | YES |
+| FkTerceros_Conductor | int | YES |
+| ImprimirOpcionales | bit | NO |
+| NumContrato | nvarchar | YES |
+| FechaContrato | datetime | YES |

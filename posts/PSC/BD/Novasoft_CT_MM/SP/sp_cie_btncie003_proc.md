@@ -1,0 +1,32 @@
+# Stored Procedure: sp_cie_btncie003_proc
+
+## Usa los objetos:
+- [[cie_alumnos]]
+- [[cie_auditoria]]
+- [[cie_becas]]
+- [[cie_cabdoc]]
+- [[cie_ciefac]]
+- [[cie_conceptos]]
+- [[cie_cuedoc]]
+- [[cie_descuentos]]
+- [[cie_factgrados]]
+- [[cie_nivel]]
+- [[cie_param]]
+- [[cie_vargen]]
+- [[fac_paramfacelec]]
+- [[fn_sis_GetUsuActual]]
+- [[gen_consecutivo]]
+- [[gen_decapl]]
+- [[gen_perapl]]
+- [[gen_periodos]]
+- [[gen_subtipodoc]]
+- [[sis_usuarios]]
+- [[sp_cie_afecon]]
+- [[sp_cie_agrupa_ant]]
+- [[sp_cie_btncie003_proc_usu]]
+- [[sp_gen_afecon_linea_proc]]
+- [[sp_gen_numerador]]
+- [[v_cie_facts_nc]]
+- [[v_cie_responsables]]
+
+*No code available.*

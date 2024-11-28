@@ -1,0 +1,49 @@
+# Table: OpcionalesIMP
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkOpcionalesIMP | bigint | NO |
+| FkModulos | nvarchar | YES |
+| FkIntegracion | smallint | YES |
+| FkFicheros | smallint | YES |
+| FkProcesos | int | YES |
+| FkMarcas | smallint | YES |
+| CodigoGama | nvarchar | YES |
+| CodModelo | nvarchar | YES |
+| AñoModelo | nvarchar | YES |
+| ExtModelo | nvarchar | YES |
+| FkVersiones | nvarchar | YES |
+| FkOpcionales | nvarchar | YES |
+| FkOpcionalTipos | nvarchar | YES |
+| NumTarifa | nvarchar | YES |
+| AñoTarifa | nvarchar | YES |
+| Nombre | nvarchar | YES |
+| PrecioVenta | decimal | YES |
+| PrecioCompra | decimal | YES |
+| Activo | nvarchar | YES |
+| DeSerie | nvarchar | YES |
+| FechaTarifa | nvarchar | YES |
+| TipoTarifa | nvarchar | YES |
+| Exclusive | nvarchar | YES |
+| FkOpcionalPinturaTipos | nvarchar | YES |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| NombreTipoPintura | nvarchar | YES |
+| ZonaVenta | nvarchar | YES |
+| FechaMod | datetime | NO |
+| FkOpcionalEquipamientoTipos | nvarchar | YES |
+| DescripcionEquipamientoTipos | nvarchar | YES |
+| FkTarifas | smallint | YES |
+| Origen | nvarchar | YES |
+| FechaTarifaReal | datetime | YES |
+| FechaTarifaHastaReal | datetime | YES |
+| CodigoOpcionalFichero | nvarchar | YES |
+| CodModeloFichero | nvarchar | YES |
+| CodigoMarca | nvarchar | YES |
+| CodExternoOpcionales | nvarchar | YES |
+| PrecioColor | decimal | YES |
+| PrecioTapizado | decimal | YES |
+| PrecioPack | decimal | YES |
+| FkGamas | smallint | YES |
+| DeConcesion | nvarchar | YES |

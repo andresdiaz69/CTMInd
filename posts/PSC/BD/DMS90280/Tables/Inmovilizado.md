@@ -1,0 +1,56 @@
+# Table: Inmovilizado
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkFkEmpresas | smallint | NO |
+| FkCentros | smallint | NO |
+| PkInmovilizado | nvarchar | NO |
+| AmortizacionInicial | decimal | YES |
+| Nombre | nvarchar | NO |
+| FkAmortizacionTipos | nvarchar | NO |
+| PorcAmortizacion | decimal | NO |
+| PorcRevalorizado | decimal | YES |
+| FechaAlta | datetime | NO |
+| FechaFuncionamiento | datetime | NO |
+| FkSeries | nvarchar | NO |
+| FkNumFactura | nvarchar | NO |
+| FkAñoFactura | nvarchar | NO |
+| FechaFactura | datetime | NO |
+| FkTerceros | int | NO |
+| Matricula | nvarchar | YES |
+| Observaciones | nvarchar | YES |
+| FkContCtas_Cargo | nvarchar | NO |
+| FkContCtas_Abono | nvarchar | NO |
+| FkContCtas_Inmovilizado | nvarchar | NO |
+| FkAmortizacionFiscalidad | smallint | YES |
+| ImporteAduana | decimal | YES |
+| ImporteTransporte | decimal | YES |
+| ImporteOtrosGastos | decimal | YES |
+| ValorCompra | decimal | NO |
+| ValorResidual | decimal | NO |
+| ValorAmortizable | decimal | NO |
+| ValorRevalorizado | decimal | YES |
+| FechaBaja | datetime | YES |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| FkAñoExpediente | nvarchar | YES |
+| FkSeries_Expediente | nvarchar | YES |
+| FkNumExpediente | int | YES |
+| FechaMod | datetime | NO |
+| FkInmovilizadoTipos | smallint | NO |
+| FkEmpleados_Receptor | smallint | YES |
+| FkMotivosBajaInmovilizado | nvarchar | YES |
+| Serie | nvarchar | YES |
+| Marca | nvarchar | YES |
+| Modelo | nvarchar | YES |
+| CodigoInterno | nvarchar | YES |
+| FechaVto | datetime | YES |
+| Documento | nvarchar | YES |
+| FkCodigosProducto | nvarchar | YES |
+| FkModulos_CodigosProducto | nvarchar | YES |
+| NumFiscal | nvarchar | YES |
+| TasaFiscal | nvarchar | YES |
+| ReferenciaInterna | nvarchar | YES |
+| FkUbicacionGenerica | nvarchar | YES |
+| FkFiscalidadTipos | tinyint | YES |

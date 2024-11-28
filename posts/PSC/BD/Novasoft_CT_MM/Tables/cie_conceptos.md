@@ -1,0 +1,51 @@
+# Table: cie_conceptos
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| cod_con | char | NO |
+| nom_con | varchar | YES |
+| val_con | money | YES |
+| ind_pag | bit | YES |
+| tip_con | smallint | YES |
+| jerarquia | smallint | YES |
+| cta_ing | char | YES |
+| ind_cco | bit | YES |
+| cod_cco | char | YES |
+| ind_cl1 | bit | YES |
+| cod_cl1 | varchar | YES |
+| ind_cl2 | bit | YES |
+| cod_cl2 | varchar | YES |
+| ind_cl3 | bit | YES |
+| cod_cl3 | varchar | YES |
+| ind_inter | bit | YES |
+| afe_cxc | bit | YES |
+| cta_desc | char | YES |
+| cta_beca | char | YES |
+| cta_ant | char | YES |
+| cta_desf | char | YES |
+| cta_cxc | char | YES |
+| ind_ecur | bit | YES |
+| ind_m01 | bit | YES |
+| ind_m02 | bit | YES |
+| ind_m03 | bit | YES |
+| ind_m04 | bit | YES |
+| ind_m05 | bit | YES |
+| ind_m06 | bit | YES |
+| ind_m07 | bit | YES |
+| ind_m08 | bit | YES |
+| ind_m09 | bit | YES |
+| ind_m10 | bit | YES |
+| ind_m11 | bit | YES |
+| ind_m12 | bit | YES |
+| cod_gru | char | NO |
+| ind_ant | bit | YES |
+| cta_devo | char | YES |
+| n_cta_ing | char | NO |
+| n_cta_desc | char | NO |
+| n_cta_beca | char | NO |
+| n_cta_ant | char | NO |
+| n_cta_desf | char | NO |
+| n_cta_cxc | char | NO |
+| n_cta_devo | char | NO |
+| ind_fact_rec | bit | NO |
+| cod_mand | char | NO |

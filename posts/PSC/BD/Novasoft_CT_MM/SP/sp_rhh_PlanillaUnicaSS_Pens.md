@@ -1,0 +1,30 @@
+# Stored Procedure: sp_rhh_PlanillaUnicaSS_Pens
+
+## Usa los objetos:
+- [[fn_Rhh_FondoFch]]
+- [[fn_rhh_Hislab_NumSec]]
+- [[fn_rhh_ModoEmp]]
+- [[fn_rhh_ValParmCont]]
+- [[fn_rhh_ValParmConv]]
+- [[fn_rhh_VG]]
+- [[gen_compania]]
+- [[gen_TipIde]]
+- [[Rhh_CausantePension]]
+- [[rhh_emplea]]
+- [[Rhh_familia]]
+- [[rhh_FdoForPag]]
+- [[rhh_hisfon]]
+- [[rhh_hislab]]
+- [[rhh_hisss]]
+- [[rhh_OtRiesgos]]
+- [[rhh_OtSalud]]
+- [[Rhh_PlaUnica_Reg01]]
+- [[Rhh_PlaUnica_Reg02]]
+- [[rhh_sucursalSS]]
+- [[rhh_TbFondos]]
+- [[rhh_TipCon]]
+- [[RHH_UPC_ADI]]
+- [[sp_rhh_GenSS01]]
+- [[sp_rhh_LiqErrInfo]]
+
+*No code available.*

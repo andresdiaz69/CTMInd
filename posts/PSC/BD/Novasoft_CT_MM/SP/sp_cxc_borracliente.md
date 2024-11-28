@@ -1,0 +1,31 @@
+# Stored Procedure: sp_cxc_borracliente
+
+## Usa los objetos:
+- [[cxc_acuper]]
+- [[cxc_anexoscli]]
+- [[cxc_auditoria]]
+- [[cxc_chepos]]
+- [[cxc_cliciuexent]]
+- [[cxc_cliente]]
+- [[cxc_contcli_entpub]]
+- [[cxc_cuedoc]]
+- [[cxc_detalledet]]
+- [[cxc_docscliente_det]]
+- [[cxc_forpag]]
+- [[cxc_icaxcli]]
+- [[cxc_impxcliente]]
+- [[cxc_mailClienteFE]]
+- [[cxc_obligacliente]]
+- [[cxc_saldos_cli]]
+- [[cxc_seg_cli]]
+- [[cxc_succli]]
+- [[cxc_vtacli]]
+- [[fac_precli]]
+- [[fac_ptocli]]
+- [[fn_sis_GetUsuActual]]
+- [[inv_cabdoc]]
+- [[opr_sitios]]
+- [[rhh_Convenio]]
+- [[tes_cuedoc]]
+
+*No code available.*

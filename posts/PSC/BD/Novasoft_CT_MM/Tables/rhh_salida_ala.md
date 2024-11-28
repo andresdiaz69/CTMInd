@@ -1,0 +1,51 @@
+# Table: rhh_salida_ala
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| tip_doc | char | NO |
+| cod_emp | char | NO |
+| ape_uno | char | YES |
+| ape_dos | char | YES |
+| nom_uno | char | YES |
+| nom_dos | char | YES |
+| ing | char | YES |
+| ret | char | YES |
+| tda | char | YES |
+| taa | char | YES |
+| vsp | char | YES |
+| vte | char | YES |
+| vst | char | YES |
+| sln | char | YES |
+| ige | char | YES |
+| lma | char | YES |
+| vac | char | YES |
+| avp | char | YES |
+| vct | char | YES |
+| irp | smallint | YES |
+| dia_pen | smallint | YES |
+| dia_sal | smallint | YES |
+| dia_arp | smallint | YES |
+| sal_bas | numeric | YES |
+| net_nov | numeric | YES |
+| ibc_pen | numeric | YES |
+| ibc_sal | numeric | YES |
+| ibc_arp | numeric | YES |
+| tar_pen | money | YES |
+| pension | numeric | YES |
+| vol_empl | numeric | YES |
+| vol_apor | numeric | YES |
+| tot_cot | numeric | YES |
+| fdo_sol | numeric | YES |
+| vlr_nrt | numeric | YES |
+| salud | numeric | YES |
+| num_inc | char | YES |
+| val_inc | numeric | YES |
+| num_lcm | char | YES |
+| val_lcm | numeric | YES |
+| val_upc | numeric | YES |
+| por_ctra | numeric | YES |
+| cen_tra | numeric | YES |
+| arp | numeric | YES |
+| cod_eps | char | YES |
+| cod_arp | char | YES |
+| ibc_tot | money | YES |

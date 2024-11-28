@@ -1,0 +1,49 @@
+# Table: OfertasVOGarantias
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkFkEmpresas | smallint | NO |
+| PkFkCentros | smallint | NO |
+| PkFkTerceros | int | NO |
+| PkFkClientesPotEntradas | smallint | NO |
+| PkFkOfertasVO | smallint | NO |
+| PkOfertasVOGarantias_Iden | smallint | NO |
+| FkGarantiaAdicionalTipos | nvarchar | NO |
+| FkGarantiaAdicionalGrupos | nvarchar | NO |
+| FechaInicio | datetime | NO |
+| FkTerceros_Compañia | int | NO |
+| FechaVencimiento | datetime | YES |
+| KmsActuales | int | YES |
+| KmsFin | int | YES |
+| FechaFactura | datetime | YES |
+| FechaContable | datetime | YES |
+| Observaciones | nvarchar | YES |
+| BaseImponible | decimal | NO |
+| ImporteCiaSeguros | decimal | NO |
+| FkImpuestos_Iva | nvarchar | NO |
+| FkDepartamentos | nvarchar | YES |
+| MesesDuracion | smallint | YES |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| FkGarantiaAdicionalTiposContables | nvarchar | YES |
+| FkEmpresas_Garantia | smallint | NO |
+| FkCentros_Garantia | smallint | NO |
+| FechaMod | datetime | NO |
+| ImpuestoPorc | decimal | YES |
+| ImpuestoImporte | decimal | YES |
+| FkMonedas | smallint | YES |
+| FactorCambioMoneda | decimal | YES |
+| FkVehiculosGarantiasEstados | tinyint | NO |
+| NumPresupuesto | nvarchar | YES |
+| RutaPresupuesto | nvarchar | YES |
+| XMLData | nvarchar | YES |
+| IdRegProducto | nvarchar | YES |
+| DescripcionProducto | nvarchar | YES |
+| FkEmpleados | smallint | YES |
+| HorasUsoActuales | int | YES |
+| HorasUsoFin | int | YES |
+| KmsInicio | int | YES |
+| HorasUsoInicio | int | YES |
+| MesesAntiguedadInicio | smallint | YES |
+| MesesAntiguedadFin | smallint | YES |

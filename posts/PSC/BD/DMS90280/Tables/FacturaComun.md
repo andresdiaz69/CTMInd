@@ -1,0 +1,56 @@
+# Table: FacturaComun
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkFkEmpresas | smallint | NO |
+| PkFkSeries | nvarchar | NO |
+| PkNumFactura | nvarchar | NO |
+| PkAñoFactura | nvarchar | NO |
+| FkCentros | smallint | NO |
+| FechaFactura | datetime | NO |
+| Nombre | nvarchar | NO |
+| Apellido1 | nvarchar | YES |
+| Apellido2 | nvarchar | YES |
+| Direccion1 | nvarchar | NO |
+| Direccion2 | nvarchar | YES |
+| Direccion3 | nvarchar | YES |
+| Direccion4 | nvarchar | YES |
+| TotalBI | decimal | NO |
+| TotalCuotaIVA | decimal | NO |
+| TotalTasas | decimal | NO |
+| TotalFactura | decimal | NO |
+| NifCif | nvarchar | NO |
+| FkTerceros | int | NO |
+| FkMonedas | smallint | YES |
+| FactorCambioMoneda | decimal | YES |
+| FkModulos | nvarchar | NO |
+| TipoFactura | tinyint | NO |
+| HashControl | nvarchar | YES |
+| HashFactura | nvarchar | YES |
+| FkAsientos | int | YES |
+| FkAñoAsiento | nvarchar | YES |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| FechaMod | datetime | NO |
+| FechaAlta | datetime | NO |
+| FkTerceroDirecciones_Facturacion | smallint | NO |
+| FkTerceroDirecciones_Envio | smallint | YES |
+| FkPagoFormas | nvarchar | NO |
+| DescripcionFP | nvarchar | NO |
+| FkTextoSistema_LPD | int | YES |
+| FkTextoSistema_OFA | int | YES |
+| FkTextoSistema_CSW | int | YES |
+| FkTextoSistema_DA | int | YES |
+| Observaciones | nvarchar | YES |
+| Telefono | nvarchar | YES |
+| FechaVto | nvarchar | YES |
+| SuReferencia | nvarchar | YES |
+| FkRegistroTipos | nvarchar | YES |
+| FkTextoSistema_EI | int | YES |
+| FactorCambioMonedaContravalor | decimal | YES |
+| FkTextoAbono_ParcialTotal | int | YES |
+| FkEmpresas_Cargo | smallint | YES |
+| FkAñoFactura_Cargo | nvarchar | YES |
+| FkSeries_Cargo | nvarchar | YES |
+| FkNumFactura_Cargo | nvarchar | YES |

@@ -1,0 +1,32 @@
+# Stored Procedure: sp_rhh_liq001130
+
+## Usa los objetos:
+- [[fn_gen_decapl]]
+- [[fn_gen_DP]]
+- [[fn_rhh_ausent01]]
+- [[fn_rhh_DiaVacRanT]]
+- [[fn_rhh_SalAntFlex]]
+- [[fn_rhh_SueldoFch]]
+- [[fn_rhh_ValNovFija]]
+- [[fn_rhh_VG]]
+- [[rhh_basesliqpres]]
+- [[rhh_cargos]]
+- [[Rhh_ConsVaca]]
+- [[rhh_hisdiasvac]]
+- [[rhh_hisvac]]
+- [[rhh_hisvac]]
+- [[rhh_liqhis]]
+- [[rhh_pagvaca]]
+- [[Rhh_TbClasAus]]
+- [[Rhh_Tbtipaus]]
+- [[rhh_TipCon]]
+- [[rhh_tipoliq]]
+- [[Sis_empresa]]
+- [[sp_gen_dp]]
+- [[sp_rhh_LiqConsVarPub]]
+- [[Sp_rhh_LiqCte]]
+- [[sp_rhh_liqhi04]]
+- [[sp_rhh_SueldoFch]]
+- [[v_rhh_concep]]
+
+*No code available.*

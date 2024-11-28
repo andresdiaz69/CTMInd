@@ -1,0 +1,52 @@
+# Table: spiga_OrdenesDeTrabajoCitasConOT
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| IdSincronizacionSpiga | int | NO |
+| IdConsecutivo | int | NO |
+| Ano_Periodo | int | NO |
+| Mes_Periodo | int | NO |
+| FechaDeCorte | datetime | NO |
+| IdEmpresas | smallint | NO |
+| IdCentros | smallint | YES |
+| IdCitas | int | YES |
+| Matricula | nvarchar | YES |
+| FechaCita | datetime | YES |
+| FechaAltaCita | datetime | YES |
+| AñoOT | nvarchar | YES |
+| SerieOT | nvarchar | YES |
+| NumOT | int | YES |
+| FechaAltaTrabajoOrden | datetime | YES |
+| NumTrabajo | smallint | YES |
+| DescripcionTrabajos | nvarchar | YES |
+| IdCargoTipos | nvarchar | YES |
+| DescripcionCargoTipos | nvarchar | YES |
+| DescripcionCitasDet | nvarchar | YES |
+| UT | int | YES |
+| IdTerceros | int | YES |
+| NombreTercero | nvarchar | YES |
+| IdRecepcionTipos | nvarchar | YES |
+| IdCitaTipos | smallint | YES |
+| DescripcionRecepcionTipos | nvarchar | YES |
+| IdMarcas | smallint | YES |
+| DescripcionGama | nvarchar | YES |
+| NombreEmpleadoAltaOT | nvarchar | YES |
+| NombreEmpleado | nvarchar | YES |
+| VIN | nvarchar | YES |
+| CodModelo | nvarchar | YES |
+| ExtModelo | nvarchar | YES |
+| AñoModelo | nvarchar | YES |
+| NombreModelo | nvarchar | YES |
+| Movil | nvarchar | YES |
+| Observaciones | nvarchar | YES |
+| CitaDesasistida | bit | YES |
+| PersonaContacto | nvarchar | YES |
+| TelefonoPersonaContacto | nvarchar | YES |
+| FechaInicioReparacion | datetime | YES |
+| NifCifEmpleadoAltaOT | nvarchar | YES |
+| NifCifEmpleado | nvarchar | YES |
+| FechaMatriculacion | datetime | YES |
+| FechaBaja | datetime | YES |
+| Campañas | nvarchar | YES |
+| IdOrigenCita | smallint | YES |
+| OrigenCitas | nvarchar | YES |

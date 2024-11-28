@@ -1,0 +1,53 @@
+# View: V_rhh_ofimatica
+
+## Usa los objetos:
+- [[CNT_PUC]]
+- [[NOM_INF_CON]]
+
+```sql
+CREATE VIEW [dbo].[V_rhh_ofimatica]
+AS
+SELECT 
+CONVERT(INT,bas_mov) AS BASE,	-- WBM
+'0' AS CHEQUE,
+CASE cnt.ind_cco WHEN 1 THEN nom.cod_cco ELSE '0' END AS CODCC, -- OS 02092019
+'00010' AS CODCOMPROB,
+NOM.cod_cta AS CODIGOCTA,
+'0' AS CODMONEDA,
+'0' AS CODTRIBUTA,
+CONVERT(INT,SUM(cre_mov)) AS  CREDITO,	-- WBM
+'0' AS CRMONEXT,
+'0' AS CRMULTIM,
+'0' AS DBMONEXT,
+'0' AS DBMULTIM,
+CONVERT(INT,num_doc) AS DCTO,	-- WBM
+CONVERT(INT,SUM(deb_mov)) AS DEBITO, -- OS 02092019
+CNT.nom_cta AS DESCRIPCIO, --- mirarer nombre  puc,
+des_mov AS DETALLE,
+CONVERT(CHAR(10),fch_doc,103) AS  FECHAMVTO,
+CONVERT(CHAR(10),fch_doc,103) AS  FECHAREAL,
+CONVERT(CHAR(10),fch_doc,103) AS  FECING,
+CONVERT(CHAR(10),fch_doc,103) AS  FECMOD,
+CASE cnt.ind_ter WHEN 1 THEN '0'  ELSE nom.cod_ter  END AS NIT,  --OS 23092019
+'' AS NOMINCONSI,
+'MIGRADO DESDE NOVASOFT' AS NOTA,
+'SUPER' AS PASSWORDIN,
+'' AS PASSWORDMO,
+'' AS REGISTRO,
+'FALSE' AS STADSINCRO,
+'0' AS SUCURSAL,
+'FALSE' AS NIIF,
+'' AS BANCODEST,
+'' AS BANCOORI,
+'' AS BENEF,
+'' AS CTADEST,
+'' AS CTAORI,
+'' AS IDINTEGRA,
+'' AS NUMCHEQ,
+'' AS UUID_CFI,
+'MVTOAUX' AS MVTOAUX
+FROM NOM_INF_CON NOM
+INNER JOIN CNT_PUC CNT ON CNT.cod_cta =NOM.cod_cta 
+GROUP BY bas_mov,cnt.ind_cco,nom.cod_cco,NOM.cod_cta,cre_mov,num_doc,deb_mov,CNT.nom_cta,des_mov,fch_doc,cnt.ind_ter,cod_ter
+
+```

@@ -1,0 +1,54 @@
+# Table: ManoObraCodigosIMP
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkManoObraCodigosIMP | bigint | NO |
+| FkModulos | nvarchar | NO |
+| FkIntegracion | smallint | NO |
+| FkProcesos | int | NO |
+| FkFicheros | smallint | NO |
+| FkManoObraCodigos | nvarchar | YES |
+| FkVariante | nvarchar | YES |
+| FkMarcaTallerModelos | nvarchar | YES |
+| Descripcion | nvarchar | YES |
+| UT | decimal | YES |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| CodTarifa | nvarchar | YES |
+| TipoOperacion1 | nvarchar | YES |
+| TipoOperacion2 | nvarchar | YES |
+| TipoOperacion3 | nvarchar | YES |
+| TipoOperacion4 | nvarchar | YES |
+| TipoOperacion5 | nvarchar | YES |
+| TipoOperacion6 | nvarchar | YES |
+| TipoOperacion7 | nvarchar | YES |
+| TipoOperacion8 | nvarchar | YES |
+| TipoOperacion9 | nvarchar | YES |
+| TipoOperacion10 | nvarchar | YES |
+| TipoOperacion11 | nvarchar | YES |
+| TipoOperacion12 | nvarchar | YES |
+| TipoOperacion13 | nvarchar | YES |
+| TipoOperacion14 | nvarchar | YES |
+| TipoOperacion15 | nvarchar | YES |
+| TipoOperacion16 | nvarchar | YES |
+| TipoOperacion17 | nvarchar | YES |
+| TipoOperacion18 | nvarchar | YES |
+| TipoOperacion19 | nvarchar | YES |
+| TipoOperacion20 | nvarchar | YES |
+| TipoOperacion21 | nvarchar | YES |
+| TipoOperacion22 | nvarchar | YES |
+| TipoOperacion23 | nvarchar | YES |
+| TipoOperacion24 | nvarchar | YES |
+| TipoOperacion25 | nvarchar | YES |
+| TipoOperacion26 | nvarchar | YES |
+| TipoOperacion27 | nvarchar | YES |
+| TipoOperacion28 | nvarchar | YES |
+| TipoOperacion | nvarchar | YES |
+| CodigoOperacion | nvarchar | YES |
+| FechaMod | datetime | NO |
+| Administracion | nvarchar | YES |
+| TipoVehiculo | nvarchar | YES |
+| CodigoTipo | nvarchar | YES |
+| UTGarantia | decimal | YES |
+| Descripcion2 | nvarchar | YES |

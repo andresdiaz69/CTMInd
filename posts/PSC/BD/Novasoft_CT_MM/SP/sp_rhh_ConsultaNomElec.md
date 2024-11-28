@@ -1,0 +1,33 @@
+# Stored Procedure: sp_rhh_ConsultaNomElec
+
+## Usa los objetos:
+- [[a]]
+- [[fn_gen_DP]]
+- [[fn_rhh_VG]]
+- [[gen_bancos]]
+- [[gen_compania]]
+- [[gen_monedas]]
+- [[gen_paises]]
+- [[gen_sucursal]]
+- [[gen_tipide]]
+- [[gth_contratos]]
+- [[GTH_ParamContratos]]
+- [[rhh_CentroTrab]]
+- [[rhh_ComprobanteElectronicoNota]]
+- [[rhh_Concep_NomElec]]
+- [[rhh_emplea]]
+- [[rhh_hislab]]
+- [[rhh_liqhis]]
+- [[rhh_paramPagoElec]]
+- [[Rhh_TbClasAus]]
+- [[rhh_tbHorExtra]]
+- [[rhh_TbTipAus]]
+- [[rhh_tbTipPag]]
+- [[rhh_tipcon]]
+- [[rhh_TipconNomElec]]
+- [[rhh_tipoliq]]
+- [[sis_aplicacion]]
+- [[sis_empresa]]
+- [[v_rhh_concep]]
+
+*No code available.*

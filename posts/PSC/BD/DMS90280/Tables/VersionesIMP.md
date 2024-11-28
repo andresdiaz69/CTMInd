@@ -1,0 +1,57 @@
+# Table: VersionesIMP
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkVersionesIMP | bigint | NO |
+| FkModulos | nvarchar | YES |
+| FkIntegracion | smallint | YES |
+| FkFicheros | smallint | YES |
+| FkProcesos | int | YES |
+| FkMarcas | smallint | YES |
+| CodigoGama | nvarchar | YES |
+| CodModelo | nvarchar | YES |
+| AñoModelo | nvarchar | YES |
+| ExtModelo | nvarchar | YES |
+| FkVersiones | nvarchar | YES |
+| NumTarifa | nvarchar | YES |
+| AñoTarifa | nvarchar | YES |
+| Nombre | nvarchar | YES |
+| DescuentoPorc | decimal | YES |
+| IVAPorc | decimal | YES |
+| IVAMatriculacionPorc | decimal | YES |
+| Impuesto565Porc | decimal | YES |
+| PrecioVenta | decimal | YES |
+| PrecioCompra | decimal | YES |
+| PrecioTransporte | decimal | YES |
+| PrecioMatriculacion | decimal | YES |
+| PreciosAtipicos | decimal | YES |
+| Activo | nvarchar | YES |
+| FechaTarifa | nvarchar | YES |
+| TipoTarifa | nvarchar | YES |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| ZonaVenta | nvarchar | YES |
+| FechaMod | datetime | NO |
+| PrecioLegalizacion | decimal | YES |
+| PrecioISV | decimal | YES |
+| PrecioEcoValor | decimal | YES |
+| PrecioLegalizacionVenta | decimal | YES |
+| PrecioTransporteVenta | decimal | YES |
+| FkTarifas | smallint | YES |
+| FechaTarifaHasta | nvarchar | YES |
+| Origen | nvarchar | YES |
+| FechaTarifaReal | datetime | YES |
+| FechaTarifaHastaReal | datetime | YES |
+| CodModeloFichero | nvarchar | YES |
+| CodigoMarca | nvarchar | YES |
+| FkMonedas | nvarchar | YES |
+| FactorCambioMoneda | decimal | YES |
+| Moneda | nvarchar | YES |
+| DtoMarca1 | decimal | YES |
+| DtoMarca2 | decimal | YES |
+| DtoMarca3 | decimal | YES |
+| DtoMarca4 | decimal | YES |
+| DtoConcesionario1 | decimal | YES |
+| FkGamas | smallint | YES |
+| PrecioIUC | decimal | YES |

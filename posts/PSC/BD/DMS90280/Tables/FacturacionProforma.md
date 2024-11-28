@@ -1,0 +1,51 @@
+# Table: FacturacionProforma
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkFkEmpresas | smallint | NO |
+| PkAñoFacturaProforma | nvarchar | NO |
+| PkFkSeries_Proforma | nvarchar | NO |
+| PkNumFacturaProforma | nvarchar | NO |
+| FkTerceros | int | NO |
+| FkTerceros_Aux | int | YES |
+| FkTerceros_Franquicia | int | YES |
+| FkPagoFormaTipos | nvarchar | YES |
+| FkCentros | smallint | NO |
+| FkCargoTipos | nvarchar | YES |
+| ImporteMO | decimal | YES |
+| ImporteMAT | decimal | YES |
+| ImporteSUB | decimal | YES |
+| ImporteVarios | decimal | YES |
+| ImportePint | decimal | YES |
+| FkEmpleados | smallint | YES |
+| NombreEmpleado | nvarchar | YES |
+| FechaEntrada | datetime | YES |
+| FechaVenta | datetime | YES |
+| NifCif | nvarchar | YES |
+| FechaFacturaProforma | datetime | YES |
+| FkPagoFormas | nvarchar | YES |
+| PagarCliente | decimal | YES |
+| PagarSeguro | decimal | YES |
+| FkUsuarios | smallint | YES |
+| FkTallerPagoTipos | nvarchar | YES |
+| FkDepartamentos_CargoInterno | nvarchar | YES |
+| FkImputacionTipos | smallint | YES |
+| FkSecciones_CargoInterno | int | YES |
+| FkCentros_Destino | smallint | YES |
+| ImporteFranquicia | decimal | YES |
+| FkTerceros_Propietario | int | YES |
+| BaseExenta | decimal | YES |
+| PorcIVAExento | decimal | YES |
+| ImpresionFacturaSinImpuestos | bit | YES |
+| FkTerceroDirecciones | smallint | NO |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| FechaMod | datetime | NO |
+| HashFactura | nvarchar | YES |
+| HashControl | nvarchar | YES |
+| FkTextoSistema_CSW | int | YES |
+| FechaEnvioHashDocumento | datetime | YES |
+| FkTextoSistema_EI | int | YES |
+| FkMonedas | smallint | YES |
+| FactorCambioMoneda | decimal | YES |

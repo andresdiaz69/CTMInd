@@ -1,0 +1,55 @@
+# Table: Entimp
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| FkPaises_Compra | nvarchar | YES |
+| FactorCambioMonedaDesdeIntermedia | decimal | YES |
+| FkSeries_Factura | nvarchar | YES |
+| FkNumFactura | nvarchar | YES |
+| FkAñoFactura | nvarchar | YES |
+| FechaDocumento | datetime | NO |
+| BaseImponibleFactura | decimal | YES |
+| FkMonedas | smallint | YES |
+| FactorCambio | decimal | YES |
+| FkCompraTipos | smallint | NO |
+| FactorCambioMonedaAIntermedia | decimal | YES |
+| FechaEmbarque | datetime | YES |
+| PuertoEmbarque | nvarchar | YES |
+| NumeroConocimientoEmbarque | nvarchar | YES |
+| FechaLlegada | datetime | YES |
+| CiudadDestino | nvarchar | YES |
+| FkTerceros_IntermediarioAduanero | int | YES |
+| ModalidadDespacho | nvarchar | YES |
+| FechaDespacho | datetime | YES |
+| IdEmpresas | smallint | NO |
+| IdCentros | smallint | NO |
+| AñoAlbaran | nvarchar | NO |
+| IdTerceros | int | NO |
+| SerieAlbaran | nvarchar | NO |
+| NumAlbaran | nvarchar | NO |
+| NumDet | int | NO |
+| IdEntradasGastos | tinyint | YES |
+| IdMR | nvarchar | NO |
+| IdReferencias | nvarchar | NO |
+| DtoPorc | decimal | NO |
+| GastosAdicionales | decimal | NO |
+| PrecioCompra | decimal | NO |
+| Unidades | decimal | NO |
+| GastosAdicionalesAlbaran | decimal | YES |
+| IdEmpresas_Traspaso | smallint | YES |
+| IdCentros_Traspaso | smallint | YES |
+| IdAño_Traspaso | nvarchar | YES |
+| IdSeries_Traspaso | nvarchar | YES |
+| IdNumTraspaso | int | YES |
+| IdTraspasoDet | int | YES |
+| ImporteEntradasGastos | decimal | YES |
+| IdMonedasEntradasGastosFactura | smallint | YES |
+| FactorCambioEntradasGastosMonedaFactura | decimal | YES |
+| EntradasGastosFechaFactura | datetime | YES |
+| IdEntradasGastosTipos | nvarchar | YES |
+| EntradaGastosAfectaACoste | bit | YES |
+| FactorCambioEntradasGastosMonedaFacturaAIntermedia | decimal | YES |
+| FactorCambioEntradasGastosMonedaFacturaDesdeIntermedia | decimal | YES |
+| TasaNacionalizacionEntradasGastos | int | YES |
+| TasaNacionalizacionAIntermediaEntradasGastos | int | YES |
+| TasaNacionalizacionDesdeIntermediaEntradasGastos | int | YES |

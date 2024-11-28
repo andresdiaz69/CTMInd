@@ -1,0 +1,31 @@
+# Stored Procedure: sp_sst_SST80
+
+## Usa los objetos:
+- [[Fn_Gen_GetMesLetras]]
+- [[gen_ciudad]]
+- [[gen_deptos]]
+- [[GTH_Acc_Acciones]]
+- [[GTH_Acc_Det_Acto_Inseguro]]
+- [[GTH_Acc_Det_Condicion_Insegura]]
+- [[GTH_Acc_Det_Factor_Personal]]
+- [[GTH_Acc_Det_Factor_Trabajo]]
+- [[GTH_AccAgente]]
+- [[GTH_AccForma]]
+- [[GTH_Accidente]]
+- [[GTH_AccIncPlanEje]]
+- [[GTH_AccInvActIns]]
+- [[GTH_AccInvConIns]]
+- [[GTH_AccInvestigacion]]
+- [[GTH_AccInvFacPers]]
+- [[GTH_AccInvFacTrab]]
+- [[GTH_AccParteCuerpo]]
+- [[GTH_AccTipLesion]]
+- [[GTH_AccTipo]]
+- [[GTH_Areas]]
+- [[rhh_cargos]]
+- [[rhh_emplea]]
+- [[rhh_hislab]]
+- [[rhh_tbestlab]]
+- [[rhh_tipcon]]
+
+*No code available.*

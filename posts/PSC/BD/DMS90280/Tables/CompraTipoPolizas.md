@@ -1,0 +1,54 @@
+# Table: CompraTipoPolizas
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkFkEmpresas | smallint | NO |
+| PkFkEmpresas | smallint | NO |
+| PkFkEmpresas | smallint | NO |
+| PkFkEmpresas | smallint | NO |
+| PkFkCentros | smallint | NO |
+| PkFkCentros | smallint | NO |
+| PkFkCentros | smallint | NO |
+| PkFkCentros | smallint | NO |
+| PkFkMarcas | smallint | NO |
+| PkFkCompraTipos | nvarchar | NO |
+| PkFkMarcas | smallint | NO |
+| PkFkCompraTipos | nvarchar | NO |
+| PkFkCtaBancarias_Polizas | smallint | NO |
+| PkFkCompraTipos | nvarchar | NO |
+| PkFkCtaBancarias_Polizas | smallint | NO |
+| PkFkCompraTipos | nvarchar | NO |
+| PkFkCtaBancarias_Polizas | smallint | NO |
+| Descripcion | nvarchar | YES |
+| PkFkCtaBancarias_Polizas | smallint | NO |
+| Descripcion | nvarchar | YES |
+| PorDefecto | bit | NO |
+| Descripcion | nvarchar | YES |
+| PorDefecto | bit | NO |
+| Descripcion | nvarchar | YES |
+| PorDefecto | bit | NO |
+| FechaAlta | datetime | NO |
+| PorDefecto | bit | NO |
+| FechaAlta | datetime | NO |
+| FechaBaja | datetime | YES |
+| FechaAlta | datetime | NO |
+| FechaBaja | datetime | YES |
+| FechaAlta | datetime | NO |
+| FechaBaja | datetime | YES |
+| UserMod | smallint | NO |
+| FechaBaja | datetime | YES |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| FechaMod | datetime | NO |
+| VersionFila | tinyint | NO |
+| FechaMod | datetime | NO |
+| VersionFila | tinyint | NO |
+| FechaMod | datetime | NO |
+| FechaMod | datetime | NO |

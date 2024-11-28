@@ -1,0 +1,31 @@
+# Stored Procedure: sp_rhh_CertfcadoParam
+
+## Usa los objetos:
+- [[fn_rhh_ContratoFch]]
+- [[fn_rhh_ContratoFch_Cia]]
+- [[fn_rhh_ConvEmp]]
+- [[fn_rhh_Empleados_Usuario]]
+- [[fn_rhh_fchIng_Cia]]
+- [[fn_rhh_fchIni_Contrato]]
+- [[fn_rhh_IngresoLabPromedio]]
+- [[fn_rhh_VG]]
+- [[fn_sis_GetUsuActual]]
+- [[gen_ciudad]]
+- [[Gen_compania]]
+- [[gen_paises]]
+- [[gen_parentesco]]
+- [[gen_tipide]]
+- [[GTH_Contratos]]
+- [[rhh_cert_piepag]]
+- [[Rhh_certifcado]]
+- [[Rhh_certifconcep]]
+- [[rhh_CertifConse]]
+- [[rhh_Convenio]]
+- [[rhh_defconcep]]
+- [[rhh_emplea]]
+- [[rhh_familia]]
+- [[Rhh_hislab]]
+- [[rhh_liqhis]]
+- [[sis_empresa]]
+
+*No code available.*

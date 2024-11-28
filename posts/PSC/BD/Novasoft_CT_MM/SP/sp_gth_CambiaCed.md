@@ -1,0 +1,31 @@
+# Stored Procedure: sp_gth_CambiaCed
+
+## Usa los objetos:
+- [[GTH_CandAplica]]
+- [[GTH_CandPostCIUO]]
+- [[GTH_Eval_Estado_Pers]]
+- [[GTH_EvalSolCargo]]
+- [[GTH_ExpLaboral]]
+- [[GTH_RequisicionEmp]]
+- [[GTH_RptAssessment]]
+- [[GTH_RptAssessmentDet]]
+- [[GTH_RptCompEmp]]
+- [[GTH_RptDiscapEmplea]]
+- [[GTH_RptEmplea]]
+- [[GTH_RptEmpRedSocial]]
+- [[GTH_RptEntrevDet]]
+- [[GTH_RptEstudio]]
+- [[GTH_RptEstudSeguridad]]
+- [[GTH_RptExamenMedico]]
+- [[GTH_RptFamilia]]
+- [[GTH_RptIdioma]]
+- [[GTH_RptOficios]]
+- [[GTH_RptPbaEmp]]
+- [[GTH_RptRefePersDet]]
+- [[GTH_RptReferencias]]
+- [[GTH_RptRequiEmp]]
+- [[GTH_RptVivienda]]
+- [[GTH_Sel_Cand_Proc]]
+- [[v_GTH_RptVisitaDomi]]
+
+*No code available.*

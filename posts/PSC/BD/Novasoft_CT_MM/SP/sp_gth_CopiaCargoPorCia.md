@@ -1,0 +1,30 @@
+# Stored Procedure: sp_gth_CopiaCargoPorCia
+
+## Usa los objetos:
+- [[gen_compania]]
+- [[GTH_CargoPazySalvo]]
+- [[GTH_CargoPlanRetiro]]
+- [[GTH_CompeCargo]]
+- [[GTH_CopiaCargoPag]]
+- [[GTH_Dotacion]]
+- [[GTH_ElemProPersCargo]]
+- [[GTH_ElemTrabCargo]]
+- [[GTH_EstudioCargo]]
+- [[GTH_EstudiosSeguridadCargo]]
+- [[GTH_ExpLabCargo]]
+- [[GTH_HistSalarioCargo]]
+- [[GTH_IdiomaCargo]]
+- [[GTH_PbaCargo]]
+- [[GTH_RequiCargo]]
+- [[rhh_cargo_func_resp]]
+- [[rhh_cargos]]
+- [[rhh_doccargo]]
+- [[SST_CargoCarEsp]]
+- [[SST_CargosLugTrab]]
+- [[SST_ExaMedicoCargo]]
+- [[SST_VacunasCargo]]
+- [[V_GTH_DocImpRetCar]]
+- [[V_GTH_DocImpVinCar]]
+- [[V_GTH_PaginasCargoCopiar]]
+
+*No code available.*

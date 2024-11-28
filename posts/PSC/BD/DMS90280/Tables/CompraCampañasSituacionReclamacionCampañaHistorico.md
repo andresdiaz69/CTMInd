@@ -1,0 +1,52 @@
+# Table: CompraCampañasSituacionReclamacionCampañaHistorico
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkFkEmpresas | smallint | NO |
+| PkFkEmpresas | smallint | NO |
+| PkFkEmpresas | smallint | NO |
+| PkFkEmpresas | smallint | NO |
+| PkFkCentros | smallint | NO |
+| PkFkCentros | smallint | NO |
+| PkFkCentros | smallint | NO |
+| PkFkCentros | smallint | NO |
+| PkFkAñoExpediente | nvarchar | NO |
+| PkFkAñoExpediente | nvarchar | NO |
+| PkFkAñoExpediente | nvarchar | NO |
+| PkFkAñoExpediente | nvarchar | NO |
+| PkFkSeries_Expediente | nvarchar | NO |
+| PkFkSeries_Expediente | nvarchar | NO |
+| PkFkSeries_Expediente | nvarchar | NO |
+| PkFkSeries_Expediente | nvarchar | NO |
+| PkFkNumExpediente | int | NO |
+| PkFkNumExpediente | int | NO |
+| PkFkNumExpediente | int | NO |
+| PkFkNumExpediente | int | NO |
+| PkFKCompraCampañas | smallint | NO |
+| PkFKCompraCampañas | smallint | NO |
+| PkFKCompraCampañas | smallint | NO |
+| PkFKCompraCampañas | smallint | NO |
+| PkFkSituacionReclamacionCampaña | nvarchar | NO |
+| PkFkSituacionReclamacionCampaña | nvarchar | NO |
+| PkFkSituacionReclamacionCampaña | nvarchar | NO |
+| PkFkSituacionReclamacionCampaña | nvarchar | NO |
+| PkCompraCampañasSituacionReclamacionCampañaHistorico_FechaSRCHModificacion | datetime | NO |
+| PkCompraCampañasSituacionReclamacionCampañaHistorico | datetime | NO |
+| PkCompraCampañasSituacionReclamacionCampañaHistorico | datetime | NO |
+| PkCompraCampañasSituacionReclamacionCampañaHistorico_FechaSRCHModificacion | datetime | NO |
+| UserMod | smallint | NO |
+| UserMod | smallint | NO |
+| UserMod | smallint | NO |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| HostMod | nvarchar | NO |
+| HostMod | nvarchar | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| VersionFila | tinyint | NO |
+| VersionFila | tinyint | NO |
+| VersionFila | tinyint | NO |
+| FechaMod | datetime | NO |
+| FechaMod | datetime | NO |
+| FechaMod | datetime | NO |
+| FechaMod | datetime | NO |

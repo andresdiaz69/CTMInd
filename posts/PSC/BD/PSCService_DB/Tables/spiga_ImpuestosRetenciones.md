@@ -1,0 +1,51 @@
+# Table: spiga_ImpuestosRetenciones
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| IdSincronizacionSpiga | int | NO |
+| IdConsecutivo | int | NO |
+| Ano_Periodo | int | NO |
+| Mes_Periodo | int | NO |
+| FechaDeCorte | datetime | NO |
+| IdEmpresas | smallint | YES |
+| AñoAsiento | nvarchar | YES |
+| IdAsientos | int | YES |
+| IdCentros | smallint | YES |
+| NombreCentro | nvarchar | YES |
+| Serie | nvarchar | YES |
+| NumFactura | nvarchar | YES |
+| AñoFactura | nvarchar | YES |
+| FechaFactura | datetime | YES |
+| FechaAsiento | datetime | YES |
+| IdFacturaTipos | nvarchar | YES |
+| DescripcionFacturaTipos | nvarchar | YES |
+| IdTerceros | int | YES |
+| NombreTercero | nvarchar | YES |
+| Apellido1 | nvarchar | YES |
+| Apellido2 | nvarchar | YES |
+| NombreComercial | nvarchar | YES |
+| NifCif | nvarchar | YES |
+| IdImpuestos | nvarchar | YES |
+| DescripcionImpuesto | nvarchar | YES |
+| IdImpuestoTipos | nvarchar | YES |
+| DescripcionClasificacionImpuesto | int | YES |
+| DescripcionTipoContribuyente | nvarchar | YES |
+| RetenerDesdeCero | bit | YES |
+| FechaContableImpuesto | datetime | YES |
+| DescripcionTipoRegistroFactura | nvarchar | YES |
+| IdContCtasBase | nvarchar | YES |
+| IdContCtasImpuesto | nvarchar | YES |
+| CargoAbono | tinyint | YES |
+| IdDocumentacionTipos | tinyint | YES |
+| DescripcionDocumentacionTipos | nvarchar | YES |
+| DescripcionImpuestoTipos | nvarchar | YES |
+| IdImpuestoTiposInternos | int | YES |
+| TotalDocumento | decimal | YES |
+| ImporteBI | decimal | YES |
+| ImporteBE | decimal | YES |
+| ImporteBNS | decimal | YES |
+| Porc | decimal | YES |
+| Cuota | decimal | YES |
+| AutoLiquidacion | bit | YES |
+| ImporteSuplidos | int | YES |
+| TotalImporteSuplidos | decimal | YES |

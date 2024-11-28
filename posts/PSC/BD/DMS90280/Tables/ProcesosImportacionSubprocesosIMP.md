@@ -1,0 +1,50 @@
+# Table: ProcesosImportacionSubprocesosIMP
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkProcesosImportacionSubprocesosIMP | bigint | NO |
+| FkModulos | nvarchar | YES |
+| FkIntegracion | smallint | YES |
+| FkFicheros | smallint | YES |
+| FkProcesos | int | YES |
+| VIN | nvarchar | YES |
+| Intermediario | nvarchar | YES |
+| Aduana | nvarchar | YES |
+| CancelacionDerechos | nvarchar | YES |
+| NumDeclaracion | nvarchar | YES |
+| FechaDeclaracion | datetime | YES |
+| NumLevante | nvarchar | YES |
+| FechaLevante | datetime | YES |
+| NumLiberacion | nvarchar | YES |
+| FechaLiberacion | datetime | YES |
+| FechaEnsamble | datetime | YES |
+| FechaSolicitud | datetime | YES |
+| Registro | nvarchar | YES |
+| FkEmpresas | smallint | YES |
+| FKAñoProcesosImportacion | nvarchar | YES |
+| FkSeries_ProcesosImportacion | nvarchar | YES |
+| FKProcesosImportacion | nvarchar | YES |
+| FkProcesosImportacionSubprocesos | int | YES |
+| FechaSubproceso | datetime | YES |
+| FkProcesosImportacionEstados | smallint | YES |
+| DU | nvarchar | YES |
+| CRF | nvarchar | YES |
+| Observaciones | nvarchar | YES |
+| Manifiesto | nvarchar | YES |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| FechaMod | datetime | NO |
+| FkDeclaracionImportacionTipos | tinyint | YES |
+| CodigoAduana | nvarchar | YES |
+| NumDeclaracionCambio | nvarchar | YES |
+| ImporteDeclaracionCambio | decimal | YES |
+| CodigoAutoadhesivo | nvarchar | YES |
+| ImporteIVADeclarado | decimal | YES |
+| ImporteArancelesDeclarado | decimal | YES |
+| ImporteAduana | decimal | YES |
+| ImporteFOBDeclarado | decimal | YES |
+| ImporteFletesDeclarado | decimal | YES |
+| ImporteSegurosDeclarado | decimal | YES |
+| NumDeclaracionCambio2 | nvarchar | YES |
+| ImporteDeclaracionCambio2 | decimal | YES |

@@ -1,0 +1,51 @@
+# Table: DeclaracionImportacionesIMP
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkDeclaracionImportacionesIMP | bigint | NO |
+| FkModulos | nvarchar | YES |
+| FkIntegracion | smallint | YES |
+| FkFicheros | smallint | YES |
+| FkProcesos | int | YES |
+| Linea | int | YES |
+| NifCif | nvarchar | YES |
+| NumDocumentoTransporte | nvarchar | YES |
+| FechaDocumentoTransporte | datetime | YES |
+| NumFactura | nvarchar | YES |
+| FechaFactura | datetime | YES |
+| Moneda | nvarchar | YES |
+| Proveedor | nvarchar | YES |
+| TipoImportacion | nvarchar | YES |
+| ImporteFOB | decimal | YES |
+| ImporteFlete | decimal | YES |
+| ImporteSeguro | decimal | YES |
+| ImporteOtrosGastos | decimal | YES |
+| NumDeclaracion | nvarchar | YES |
+| FechaDeclaracion | datetime | YES |
+| NumLevante | nvarchar | YES |
+| FechaLevante | datetime | YES |
+| NumAutoadhesivo | nvarchar | YES |
+| FechaAutoadhesivo | datetime | YES |
+| Pedido | nvarchar | YES |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| FechaMod | datetime | NO |
+| FechaProceso | datetime | YES |
+| FkDeclaracionImportacionTipos | tinyint | YES |
+| CodigoAduana | nvarchar | YES |
+| NumDeclaracionCambio | nvarchar | YES |
+| ImporteDeclaracionCambio | decimal | YES |
+| ImporteIVA | decimal | YES |
+| ImporteAranceles | decimal | YES |
+| ImporteAduana | decimal | YES |
+| NumDeclaracionCambio2 | nvarchar | YES |
+| ImporteDeclaracionCambio2 | decimal | YES |
+| VIN | nvarchar | YES |
+| FkCertificaciones | nvarchar | YES |
+| NumeroDespacho | nvarchar | YES |
+| CantidadSubpartidas | smallint | YES |
+| DeclaracionPrincipal | nvarchar | YES |
+| TasaMonedaOrigen | decimal | YES |
+| TasaMonedaIntermedia | decimal | YES |
+| NumTraspasoCompleto | nvarchar | YES |

@@ -1,0 +1,32 @@
+# Stored Procedure: Sp_rhh_InfNominaElectronica_factureV1
+
+## Usa los objetos:
+- [[fn_gen_DP]]
+- [[fn_rhh_Hislab_NumSec_cont]]
+- [[fn_rhh_VG]]
+- [[gen_bancos]]
+- [[gen_compania]]
+- [[gen_paises]]
+- [[gen_tipide]]
+- [[rhh_AdminEnvioPagoElectronico]]
+- [[rhh_AdminEnvioPagoElectronicoDetalle]]
+- [[rhh_AdminEnvioPE_Ajuste]]
+- [[rhh_AdminEnvioPEDetalle_Ajuste]]
+- [[rhh_CentroTrab]]
+- [[rhh_ComprobanteElectronico]]
+- [[rhh_ComprobanteElectronicoNota]]
+- [[rhh_concep_nomelec]]
+- [[rhh_emplea]]
+- [[rhh_hislab]]
+- [[rhh_LiqHis]]
+- [[rhh_paramPagoElec]]
+- [[Rhh_TbClasAus]]
+- [[rhh_tbhorextra]]
+- [[rhh_TbTipAus]]
+- [[rhh_tbTipPag]]
+- [[rhh_tipcon]]
+- [[rhh_tipoliq]]
+- [[sis_empresa]]
+- [[V_rhh_Concep]]
+
+*No code available.*

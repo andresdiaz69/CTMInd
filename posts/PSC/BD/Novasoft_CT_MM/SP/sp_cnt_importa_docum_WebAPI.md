@@ -1,0 +1,32 @@
+# Stored Procedure: sp_cnt_importa_docum_WebAPI
+
+## Usa los objetos:
+- [[cnt_auditoria]]
+- [[cnt_cabdoc]]
+- [[cnt_cuedoc]]
+- [[cnt_inf_con]]
+- [[cnt_puc]]
+- [[fn_sis_GetUsuActual]]
+- [[fn_web_GruposUsu]]
+- [[gen_cajas]]
+- [[gen_ccosto]]
+- [[gen_clasif1]]
+- [[gen_clasif2]]
+- [[gen_clasif3]]
+- [[gen_consecsubtipo]]
+- [[gen_consecutivo]]
+- [[gen_gruconsecdet]]
+- [[gen_gruconxusu]]
+- [[gen_monedas]]
+- [[gen_perapl]]
+- [[gen_periodos]]
+- [[gen_permisos]]
+- [[gen_subtipodoc]]
+- [[gen_sucursal]]
+- [[gen_terceros]]
+- [[sis_aplicacion]]
+- [[sis_usuarios]]
+- [[sp_cnt_ajustedc_doc]]
+- [[sp_gen_numerador]]
+
+*No code available.*

@@ -1,0 +1,50 @@
+# Table: GuiasTransporte
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkFkEmpresas | smallint | NO |
+| PkFkCentros | smallint | NO |
+| PkFkSeries_GuiasTransporte | nvarchar | NO |
+| PkGuiasTransporte | int | NO |
+| FkTerceros_Destinatario | int | YES |
+| FkSecciones_Destinatario | int | YES |
+| FkTerceroDirecciones_DestinatarioEnvio | smallint | YES |
+| DireccionEnvioSeccionesDestinatario | nvarchar | YES |
+| FechaInicioTransporte | datetime | YES |
+| FechaFinTransporte | datetime | YES |
+| VehiculoTransporte | nvarchar | YES |
+| CodTransporte | nvarchar | YES |
+| HashGuiaTransporte | nvarchar | YES |
+| HashControlGuiaTransporte | nvarchar | YES |
+| FechaEnvioHashGuiaTransporte | datetime | YES |
+| FechaAlta | datetime | YES |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| FechaMod | datetime | NO |
+| FkTerceros_Transportista | int | YES |
+| MotivoTraslado | nvarchar | YES |
+| Ruta | nvarchar | YES |
+| DocumentoAduanero | nvarchar | YES |
+| FkTerceros_Chofer | int | YES |
+| NumTransito | nvarchar | YES |
+| Perteneciente | nvarchar | YES |
+| FkCentros_Destinatario | smallint | NO |
+| TipoGuia | tinyint | NO |
+| Coste | decimal | YES |
+| Peso | decimal | YES |
+| Volumen | decimal | YES |
+| CargoCompañia | bit | NO |
+| FkTipoTransporte | nvarchar | YES |
+| FkMotivosTrasladoGuiasTransporte | smallint | YES |
+| DesplazamientoDesdeCliente | bit | NO |
+| TransbordoProgramado | bit | YES |
+| IdTipoDocRelacionado | nvarchar | YES |
+| NumDocRelacionado | nvarchar | YES |
+| FkTerceros_Relacionado | int | YES |
+| NumBultosOPallets | int | YES |
+| TrasladoTotalMercancia | bit | YES |
+| ModalidadTransporte | nvarchar | YES |
+| PuertoDesembarque | nvarchar | YES |
+| AeropuertoDesembarque | nvarchar | YES |
+| VehiculoM1L | bit | YES |

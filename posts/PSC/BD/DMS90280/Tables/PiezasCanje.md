@@ -1,0 +1,53 @@
+# Table: PiezasCanje
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkPiezasCanje | int | NO |
+| FkMR | nvarchar | NO |
+| FkReferencias | nvarchar | NO |
+| FkEmpresas_Entradas | smallint | NO |
+| FkCentros_Entradas | smallint | NO |
+| FkAñoEntradasAlbaran | nvarchar | NO |
+| FkTerceros_Entradas | int | NO |
+| FkSeries_Entradas | nvarchar | NO |
+| FkNumEntradasAlbaran | nvarchar | NO |
+| FkEntradasDet | int | NO |
+| FechaVencimientoDevolucionProveedor | datetime | NO |
+| FechaDevolucionProveedor | datetime | YES |
+| FechaFacturaDevolucionProveedor | datetime | YES |
+| FkSeries_FacturaDevolucionProveedor | nvarchar | YES |
+| FkNumFacturaDevolucionProveedor | nvarchar | YES |
+| FkAñoFacturaDevolucionProveedor | nvarchar | YES |
+| FkSeries_FacturaPenalizacionProveedor_Recibida | nvarchar | YES |
+| FkNumFacturaPenalizacionProveedor_Recibida | nvarchar | YES |
+| FkAñoFacturaPenalizacionProveedor_Recibida | nvarchar | YES |
+| NoDevolucionProveedor | bit | YES |
+| FkEmpresas_Salidas | smallint | YES |
+| FkCentros_Salidas | smallint | YES |
+| FkAñoSalidasAlbaran | nvarchar | YES |
+| FkSeries_Salidas | nvarchar | YES |
+| FkNumSalidasAlbaran | nvarchar | YES |
+| FkSalidasDet | int | YES |
+| FechaVencimientoDevolucionCliente | datetime | YES |
+| FechaDevolucionCliente | datetime | YES |
+| FkSeries_FacturaDevolucionCliente | nvarchar | YES |
+| FkNumFacturaDevolucionCliente | nvarchar | YES |
+| FkAñoFacturaDevolucionCliente | nvarchar | YES |
+| FkSeries_FacturaPenalizacionCliente | nvarchar | YES |
+| FkNumFacturaPenalizacionCliente | nvarchar | YES |
+| FkAñoFacturaPenalizacionCliente | nvarchar | YES |
+| NoDevolucionCliente | bit | YES |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| FechaMod | datetime | NO |
+| FechaBaja | datetime | YES |
+| FechaFacturaDevolucionCliente | datetime | YES |
+| FechaFacturaPenalizacionCliente | datetime | YES |
+| FkSeries_FacturaDevolucionProveedor_Recibida | nvarchar | YES |
+| FkNumFacturaDevolucionProveedor_Recibida | nvarchar | YES |
+| FkAñoFacturaDevolucionProveedor_Recibida | nvarchar | YES |
+| VentanaManual | bit | YES |
+| NumPedidoDevolucionProveedor | nvarchar | YES |
+| Observaciones | nvarchar | YES |
+| OrigenAbonoSalida | bit | NO |

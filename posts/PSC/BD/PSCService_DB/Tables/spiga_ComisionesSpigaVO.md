@@ -1,0 +1,56 @@
+# Table: spiga_ComisionesSpigaVO
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| IdSincronizacionSpiga | int | NO |
+| IdConsecutivo | int | NO |
+| Ano_Periodo | int | NO |
+| Mes_Periodo | int | NO |
+| FechaDeCorte | datetime | NO |
+| Id | uniqueidentifier | YES |
+| IdComisionSpiga | int | YES |
+| Ano_Spiga | int | YES |
+| Mes_Spiga | int | YES |
+| Codigoempresa | smallint | YES |
+| Empresa | nvarchar | YES |
+| CodigoEmpresaSugerido | int | YES |
+| EmpresaSugerida | nvarchar | YES |
+| CodigoCentro | smallint | YES |
+| Centro | nvarchar | YES |
+| CodigoSeccion | int | YES |
+| Seccion | nvarchar | YES |
+| FechaFactura | datetime | YES |
+| NumeroFactura | nvarchar | YES |
+| VIN | nvarchar | YES |
+| CodigoMArca | smallint | YES |
+| Marca | nvarchar | YES |
+| CodigoGama | smallint | YES |
+| Gama | nvarchar | YES |
+| CodigoModelo | nvarchar | YES |
+| Extension | nvarchar | YES |
+| AñoModelo | nvarchar | YES |
+| Modelo | nvarchar | YES |
+| CodigoVersion | nvarchar | YES |
+| NombreVersion | nvarchar | YES |
+| CedulaVendedor | bigint | YES |
+| NombreVendedor | nvarchar | YES |
+| Nit | nvarchar | YES |
+| nombreTercero | nvarchar | YES |
+| PrecioVehiculo | decimal | YES |
+| PrecioLista | decimal | YES |
+| ValorDto | decimal | YES |
+| ImporteImpuestos | decimal | YES |
+| TotalFactura | decimal | YES |
+| FechaCancelacionFactura | datetime | YES |
+| TotalCanceladoFactura | decimal | YES |
+| FechaRemesa | datetime | YES |
+| ValorRemesado | decimal | YES |
+| FechaEntregaCliente | datetime | YES |
+| DescuentoPolitica | decimal | YES |
+| NumerEntregas | int | YES |
+| Tipo_Servicio | nvarchar | YES |
+| CuotaReteFuente | decimal | YES |
+| EntregaEfectiva | int | YES |
+| Procedencia | nvarchar | YES |
+| ProcedenciaDetalle | nvarchar | YES |
+| TipoOportunidad | nvarchar | YES |

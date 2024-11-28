@@ -1,0 +1,31 @@
+# Stored Procedure: sp_tes_GeneraLotesPagos
+
+## Usa los objetos:
+- [[cxc_cliente]]
+- [[err_infcon]]
+- [[err_infnif]]
+- [[fn_sis_GetUsuActual]]
+- [[gen_perapl]]
+- [[gen_periodos]]
+- [[gen_subtipodoc]]
+- [[rhh_Convenio]]
+- [[rhh_emplea]]
+- [[rhh_liqhis]]
+- [[rhh_LotesBanco]]
+- [[rhh_tbForPag]]
+- [[sis_aplicacion]]
+- [[sis_usuarios]]
+- [[sp_gen_afecon_linea_proc]]
+- [[sp_gen_numerador]]
+- [[sp_tes_afecon]]
+- [[sp_tes_GeneraChequeLotesNom]]
+- [[tes_auditoria]]
+- [[tes_bancos]]
+- [[tes_cabdoc]]
+- [[tes_cuedoc]]
+- [[tes_pago_ach_control_lotesNom]]
+- [[tes_param]]
+- [[tes_vargen]]
+- [[v_rhh_concep]]
+
+*No code available.*

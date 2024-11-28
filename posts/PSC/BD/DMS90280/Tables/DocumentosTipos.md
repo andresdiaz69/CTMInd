@@ -1,0 +1,11 @@
+# Table: DocumentosTipos
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkDocumentosTipos | tinyint | NO |
+| Descripcion | nvarchar | NO |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| FechaMod | datetime | NO |
+| Visible | bit | NO |

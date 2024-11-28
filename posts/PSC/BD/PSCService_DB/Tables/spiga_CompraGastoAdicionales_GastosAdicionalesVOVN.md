@@ -1,0 +1,55 @@
+# Table: spiga_CompraGastoAdicionales_GastosAdicionalesVOVN
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| IdSincronizacionSpiga | int | NO |
+| IdConsecutivo | int | NO |
+| Ano_Periodo | int | NO |
+| Mes_Periodo | int | NO |
+| FechaDeCorte | datetime | NO |
+| IdEmpresas | smallint | YES |
+| IdCentros | smallint | YES |
+| IdCompraGastoAdicionales | int | YES |
+| IdCompraGastoAdicionalTipos | nvarchar | YES |
+| IdTercerosProveedor | int | YES |
+| DescripcionTercero | nvarchar | YES |
+| IncrementaStock | bit | YES |
+| FechaGasto | datetime | YES |
+| FechaAnulacion | datetime | YES |
+| FechaAbono | datetime | YES |
+| IdAcondicionamientoTipos | int | YES |
+| FechaFactura | datetime | YES |
+| SerieFactura | nvarchar | YES |
+| NumFactura | nvarchar | YES |
+| AñoFactura | nvarchar | YES |
+| FechaAlbaran | datetime | YES |
+| SerieAlbaran | nvarchar | YES |
+| NumAlbaran | nvarchar | YES |
+| AñoAlbaran | nvarchar | YES |
+| AñoExpediente | nvarchar | YES |
+| SerieExpediente | nvarchar | YES |
+| NumExpediente | int | YES |
+| CreacionPosteriorVenta | bit | YES |
+| BaseNoSujeta | decimal | YES |
+| BaseExenta | decimal | YES |
+| BaseImponible | decimal | YES |
+| ImporteSuplidos | decimal | YES |
+| AfectaRentabilidad | bit | YES |
+| Matricula | nvarchar | YES |
+| VIN | nvarchar | YES |
+| NombreMarca | nvarchar | YES |
+| NombreGama | nvarchar | YES |
+| NombreCentro | nvarchar | YES |
+| IdMonedas | smallint | YES |
+| FactorCambioMoneda | decimal | YES |
+| FactorCambioVisualizacion | decimal | YES |
+| IdAgentes | smallint | YES |
+| NombreAgentes | nvarchar | YES |
+| IdTerceros_Cliente | smallint | YES |
+| NombreClientes | nvarchar | YES |
+| AñoProcesosImportacion | nvarchar | YES |
+| SerieProcesosImportacion | nvarchar | YES |
+| IdProcesosImportacion | smallint | YES |
+| IdProcesosImportacionSubprocesos | smallint | YES |
+| DescripcionCompraGastoAdicionalTipos | nvarchar | YES |
+| DescripcionAcondicionamientoTipos | nvarchar | YES |

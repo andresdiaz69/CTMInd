@@ -1,0 +1,52 @@
+# Table: spiga_ComprasDeRepuestosContabilizadas
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| IdSincronizacionSpiga | int | NO |
+| IdConsecutivo | int | NO |
+| Ano_Periodo | int | NO |
+| Mes_Periodo | int | NO |
+| FechaDeCorte | datetime | NO |
+| IdEmpresas | smallint | YES |
+| IdCentros | smallint | YES |
+| AñoAlbaran | nvarchar | YES |
+| IdTerceros | int | YES |
+| NombreTercero | nvarchar | YES |
+| SerieAlbaran | nvarchar | YES |
+| NumAlbaran | nvarchar | YES |
+| FechaAlta | datetime | YES |
+| FechaDocumento | datetime | YES |
+| ExentoIva | bit | YES |
+| IdTipoCompra | smallint | YES |
+| DescripcionTipoCompra | nvarchar | YES |
+| EntradaLibre | bit | YES |
+| AñoAsientoFactura | nvarchar | YES |
+| IdAsientosFactura | int | YES |
+| Portes | decimal | YES |
+| Embalajes | decimal | YES |
+| NumDet | int | YES |
+| IdMR | nvarchar | YES |
+| IdReferencias | nvarchar | YES |
+| Unidades | decimal | YES |
+| DtoPorc | decimal | YES |
+| GastosAdicionales | decimal | YES |
+| PrecioMedio | decimal | YES |
+| PrecioCompra | decimal | YES |
+| IdClasificacion1 | nvarchar | YES |
+| NombreCentro | nvarchar | YES |
+| FechaFactura | datetime | YES |
+| Series | nvarchar | YES |
+| NumFactura | nvarchar | YES |
+| AñoFactura | nvarchar | YES |
+| DescripcionReferencias | nvarchar | YES |
+| IdTarifas | tinyint | YES |
+| PorcImpuestoPortesEmbalajes | decimal | YES |
+| PortesEmbalajesExentos | bit | YES |
+| FactorCambioMonedaContravalor | decimal | YES |
+| IdPedidoTipoCompras | smallint | YES |
+| SerieOT | nvarchar | YES |
+| NumOT | int | YES |
+| AñoOT | nvarchar | YES |
+| NumTrabajo | tinyint | YES |
+| IdImpuestosPortesEmbalajes | nvarchar | YES |
+| CodigoSeccion | int | YES |

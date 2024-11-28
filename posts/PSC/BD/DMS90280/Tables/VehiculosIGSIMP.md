@@ -1,0 +1,50 @@
+# Table: VehiculosIGSIMP
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkVehiculosIGSIMP | bigint | NO |
+| FkModulos | nvarchar | YES |
+| FkIntegracion | smallint | YES |
+| FkProcesos | int | YES |
+| FkFicheros | smallint | YES |
+| CodigoVehiculo | nvarchar | YES |
+| FechaAlta | datetime | YES |
+| FkMarcas | smallint | YES |
+| FkGamas | smallint | YES |
+| FkCodModelo | nvarchar | YES |
+| FkExtModelo | nvarchar | YES |
+| FkAñoModelo | nvarchar | YES |
+| FkVersiones | nvarchar | YES |
+| VIN | nvarchar | YES |
+| Matricula | nvarchar | YES |
+| FechaFabricacion | datetime | YES |
+| FechaMatriculacion | datetime | YES |
+| FechaInicioGarantia | datetime | YES |
+| FechaFinGarantiaMecanica | datetime | YES |
+| FechaFinGarantiaPintura | datetime | YES |
+| FechaFinGarantiaChapa | datetime | YES |
+| FechaUltimaInspeccion | datetime | YES |
+| FechaProximaInspeccion | datetime | YES |
+| PotenciaFiscal | nvarchar | YES |
+| PotenciaReal | nvarchar | YES |
+| Cilindrada | decimal | YES |
+| FkCombustibleTipos | nvarchar | YES |
+| FkMarcaTallerModelos | nvarchar | YES |
+| NumeroCambio | nvarchar | YES |
+| ClavePintura | nvarchar | YES |
+| ClaveMotor | nvarchar | YES |
+| NumeroMotor | nvarchar | YES |
+| Observaciones | nvarchar | YES |
+| FkOpcionalesColor | nvarchar | YES |
+| DescripcionColor | nvarchar | YES |
+| FkOpcionalesTapiceria | nvarchar | YES |
+| DescripcionTapiceria | nvarchar | YES |
+| UserMod | smallint | YES |
+| HostMod | nvarchar | YES |
+| VersionFila | tinyint | NO |
+| FechaMod | datetime | YES |
+| FkVehiculos | int | YES |
+| SeMigra | bit | YES |
+| NumLineaFichero | int | YES |
+| CodigoTerceros | nvarchar | YES |
+| NombreModelo | nvarchar | YES |

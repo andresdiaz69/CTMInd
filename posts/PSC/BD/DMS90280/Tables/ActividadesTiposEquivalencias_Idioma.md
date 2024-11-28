@@ -1,0 +1,14 @@
+# Table: ActividadesTiposEquivalencias_Idioma
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkFkActividadesTipos | smallint | NO |
+| PkFkEquivalencias | smallint | NO |
+| PkActividadesTiposEquivalencias | nvarchar | NO |
+| PkFkIdioma | nvarchar | NO |
+| Descripcion | nvarchar | YES |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| FechaMod | datetime | NO |
+| PkFkEmpresas | smallint | NO |

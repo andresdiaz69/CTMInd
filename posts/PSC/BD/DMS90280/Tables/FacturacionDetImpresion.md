@@ -1,0 +1,49 @@
+# Table: FacturacionDetImpresion
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkFkEmpresas | smallint | NO |
+| PkFkCentros | smallint | NO |
+| PkFkAñoFactura | nvarchar | NO |
+| PkFkSeries | nvarchar | NO |
+| PkFkNumFactura | nvarchar | NO |
+| PkFkAñoOT | nvarchar | NO |
+| PkFkSeries_OT | nvarchar | NO |
+| PkFkNumOT | int | NO |
+| PkFkNumTrabajo | tinyint | NO |
+| Descripcion | nvarchar | YES |
+| FkAñoPresupuesto | nvarchar | YES |
+| FkSeries_Presupuesto | nvarchar | YES |
+| FkNumPresupuesto | int | YES |
+| NumeroAutorizacion | nvarchar | YES |
+| NumSiniestro | nvarchar | YES |
+| ImporteMO | decimal | YES |
+| ImporteMAT | decimal | YES |
+| ImporteSUB | decimal | YES |
+| ImporteVarios | decimal | YES |
+| ImportePintura | decimal | YES |
+| FkVehiculos | int | YES |
+| Matricula | nvarchar | YES |
+| VIN | nvarchar | YES |
+| DescripcionModelo | nvarchar | YES |
+| Kmts | int | YES |
+| NumeroPoliza | nvarchar | YES |
+| HorasMO | int | YES |
+| SerieAlbaran | nvarchar | YES |
+| NumAlbaran | nvarchar | YES |
+| AñoAlbaran | nvarchar | YES |
+| FkImportadoras_MecanicaRapida | int | YES |
+| FkMarcas_MecanicaRapida | smallint | YES |
+| FkMecanicaRapidaCodigosOperaciones | nvarchar | YES |
+| FkMecanicaRapidaSubCodigosOperaciones | nvarchar | YES |
+| FkMecanicaRapidaOperaciones | nvarchar | YES |
+| AtencionComercial | tinyint | YES |
+| Color | nvarchar | YES |
+| FkMonedas | smallint | YES |
+| FactorCambioMoneda | decimal | YES |
+| HorasUso | int | YES |
+| ImportePedidoServicioAbono | decimal | YES |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| FechaMod | datetime | NO |

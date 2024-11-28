@@ -1,0 +1,10 @@
+# Table: TipoPresupuesto
+
+| Column Name | Data Type | Nullable |
+|-------------|-----------|----------|
+| PkTipoPresupuesto | nvarchar | NO |
+| Descripcion | nvarchar | YES |
+| UserMod | smallint | NO |
+| HostMod | nvarchar | NO |
+| VersionFila | tinyint | NO |
+| FechaMod | datetime | NO |
